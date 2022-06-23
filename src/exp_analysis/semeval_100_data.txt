@@ -1,0 +1,400 @@
+{
+    "sen": "fellows also participate in a program of seminars and [E1] colloquia [/E1] focusing on contemporary [E2] issues [/E2] and community building in the asia - pacific region .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "in this case report we describe a young female with bcs , which was the result of a [E1] combination [/E1] of risk [E2] factors [/E2] , including the recently discovered g20210a .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "i ' m still having a hard time imagining a [E1] smuck [/E1] of glowing [E2] jellyfish [/E2] 10x10 miles and 35 feet deep .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "the greatest [E1] amazement [/E1] was caused by the [E2] floats [/E2] .",
+    "gold_relation": "Cause-Effect(e2,e1)"
+}
+{
+    "sen": "the [E1] media [/E1] then creates a self fulfilling prophesy with constant [E2] reports [/E2] of doom and gloom and individuals also pull their money out of the targeted bank .",
+    "gold_relation": "Product-Producer(e2,e1)"
+}
+{
+    "sen": "eight to 10 [E1] protesters [/E1] broke away from a larger [E2] group [/E2] of demonstrators and darted into the street in front of palin ' s car just after the first police motorcycles in her motorcade had passed .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "the [E1] facades [/E1] of the [E2] palace [/E2] consist of beautifully decorated wooden doors and windows and ventilations in addition to decorated gypsum motifs .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "sufficient coagulation - deficient [E1] fluids [/E1] were given to surgical [E2] patients [/E2] .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "making a slow cook [E1] turkey [/E1] in the [E2] crock pot [/E2] is pretty similar to making one in the oven .",
+    "gold_relation": "Content-Container(e1,e2)"
+}
+{
+    "sen": "most importantly , the increase in bold activity in these regions was independent of the motor [E1] system [/E1] that the [E2] participants [/E2] used to express their decision .",
+    "gold_relation": "Instrument-Agency(e1,e2)"
+}
+{
+    "sen": "the author of the letter , francis pawlett , wrote of a delicious [E1] cheese [/E1] produced by cooper thornhill , the well - known [E2] landlord [/E2] of the bull inn .",
+    "gold_relation": "Product-Producer(e1,e2)"
+}
+{
+    "sen": "the [E1] priest [/E1] mixes the holy oil and the wine with a [E2] spoon [/E2] and pours it into small containers , as many as there be priests .",
+    "gold_relation": "Instrument-Agency(e2,e1)"
+}
+{
+    "sen": "[E1] chocolate [/E1] [E2] cake [/E2] is a dessert popularized at the end of the 19th century and popular internationally .",
+    "gold_relation": "Entity-Origin(e2,e1)"
+}
+{
+    "sen": "[E1] job dissatisfaction [/E1] is one of the main causes of [E2] stress [/E2] and stress is one of the main causes of illness .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "the [E1] kitchen [/E1] contained one other interesting item , a [E2] trap door [/E2] in the ceiling .",
+    "gold_relation": "Component-Whole(e2,e1)"
+}
+{
+    "sen": "the [E1] problems [/E1] of crime and the quality of justice have become central issues in public [E2] debate [/E2] .",
+    "gold_relation": "Message-Topic(e2,e1)"
+}
+{
+    "sen": "in the bushes near the door , investigators found a [E1] backpack [/E1] with [E2] papers [/E2] inside .",
+    "gold_relation": "Content-Container(e2,e1)"
+}
+{
+    "sen": "all they have on their side is the most artful [E1] sergeant [/E1] in the [E2] army [/E2] and a vampire with a lust for coffee .",
+    "gold_relation": "Member-Collection(e1,e2)"
+}
+{
+    "sen": "the stainless - steel [E1] vessel [/E1] was filled with [E2] nitrogen [/E2] , and the pressure in the outer volume of the chamber was kept steady .",
+    "gold_relation": "Entity-Destination(e2,e1)"
+}
+{
+    "sen": "the tour of california raced through west marin on monday in a [E1] blur [/E1] of speeding [E2] bicyclists [/E2] and their caravan of support vehicles , once again sparking charges that it puts spectators in harm ' s way .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] space monkey [/E1] travels into [E2] space [/E2] .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "the [E1] generator [/E1] powered a nearby aluminium [E2] factory [/E2] , considered vital to the german war effort .",
+    "gold_relation": "Instrument-Agency(e1,e2)"
+}
+{
+    "sen": "typically , employees attend a day - long [E1] course [/E1] explaining the [E2] initiative [/E2] .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "tub drains clog up with hair and the [E1] grease [/E1] from [E2] soap [/E2] and must be cleaned out occasionally .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "like a [E1] battalion [/E1] of medieval [E2] archers [/E2] , these plasma cells let fly their antibodies , which travel to their targets on the outer surface of harmful bacteria .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "with the conquest of jerusalem in 1099 , geoffrey de bouillon established a [E1] chapter [/E1] of secular [E2] canons [/E2] in the basilica of the holy sepulcher to offer the sacred liturgy according to the latin rite .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "branches overhang the [E1] roof [/E1] of this [E2] house [/E2] .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "the [E1] water [/E1] starts in an underground [E2] lake [/E2] a mile away , arrives in an intricately - ptterned moss pool and falls over a small cliff face .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "[E1] remains [/E1] from ancient [E2] epochs [/E2] are discernible in the village vicinities - to the north of the village , in the location of \" gradishteto \" , lie the ruins of a thracian and late antique fortresses , thracian mounds and objects , bearing witness to ancient metallurgy .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "in the [E1] background [/E1] is a depiction of a [E2] city [/E2] with angels that along a path that leads towards it .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "i asked the something awful forum goons to create [E1] products [/E1] from the [E2] future [/E2] , and by golly they did .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "the [E1] fastener [/E1] and delivery mechanism are core components of the endogastric solutions [E2] platform [/E2] , which will continue to spawn a range of innovative products for nos .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "the [E1] transmitter [/E1] generates the electromagnetic [E2] wave [/E2] , some of which will be incident on the receiver .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "the electromagnetic ( em ) [E1] radiation [/E1] from the [E2] sun [/E2] arrives mostly in the form of visible and infrared wavelengths .",
+    "gold_relation": "Cause-Effect(e2,e1)"
+}
+{
+    "sen": "it was a stinker of a day and we were accompanied by a bothersome [E1] business [/E1] of [E2] flies [/E2] .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "the third [E1] bid [/E1] was from a window [E2] company [/E2] that does its own installation .",
+    "gold_relation": "Product-Producer(e1,e2)"
+}
+{
+    "sen": "i was a little worried about making an [E1] ascent [/E1] of the crux with a [E2] backpack [/E2] .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] report [/E1] insisted on the [E2] need [/E2] to guarantee income security independently of the variations in economic circumstances .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "the [E1] programme [/E1] began with the [E2] welcome speech [/E2] of the organisation ' s president mahabubul haider and was presided over by kranti ' s adviser dilip .",
+    "gold_relation": "Component-Whole(e2,e1)"
+}
+{
+    "sen": "[E1] pinworm [/E1] [E2] infestation [/E2] is very rarely fatal ; death and morbidity are from secondary infection .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "it ' s important you choose the right one as [E1] chain [/E1] [E2] saws [/E2] are quick to start malfunctioning if the chain saw you choose isn ' t up to the task at hand .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "the [E1] cops [/E1] moved into the floating [E2] hotels [/E2] .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "they respond to more and more [E1] telephone calls [/E1] demanding [E2] payments [/E2] to cover costs in order to receive their prize .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "in 1882 louis developed a method of making photographic plates , and by 1894 the brothers ' [E1] factory [/E1] was producing 15 million [E2] plates [/E2] a year .",
+    "gold_relation": "Product-Producer(e2,e1)"
+}
+{
+    "sen": "painful digestive problems can trigger problem behaviour in children with autism and should be treated medically , according to the [E1] panel [/E1] ' s [E2] report [/E2] published today .",
+    "gold_relation": "Product-Producer(e2,e1)"
+}
+{
+    "sen": "vinegar flies are capable of living off alcohol fumes , alas , so it is enough toput out a [E1] bottle [/E1] with [E2] attractant [/E2] in it .",
+    "gold_relation": "Content-Container(e2,e1)"
+}
+{
+    "sen": "rudders and [E1] skegs [/E1] improve the control over your [E2] kayak [/E2] .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "delegates from the developing world have suspended their participation in [E1] climate change [/E1] [E2] talks [/E2] in copenhagen today , bringing negotiations to a temporary stop .",
+    "gold_relation": "Message-Topic(e2,e1)"
+}
+{
+    "sen": "she and [E1] colleagues [/E1] exhaustively tested the sample , sequencing the proteins they found with a new and better mass [E2] spectrometer [/E2] .",
+    "gold_relation": "Instrument-Agency(e2,e1)"
+}
+{
+    "sen": "the recovery plan was the commencement of a captive breeding [E1] program [/E1] from a small wild [E2] population [/E2] .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] composition [/E1] forming the subject of the present [E2] invention [/E2] included one or more fillers as defined above .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] software [/E1] lets the [E2] teleworker [/E2] closely associate his ip soft phone with other public switched telephone network ( pstn ) connections .",
+    "gold_relation": "Instrument-Agency(e1,e2)"
+}
+{
+    "sen": "the bush [E1] administration [/E1] hid the true fiscal picture with a plethora of accounting [E2] gimmicks [/E2] .",
+    "gold_relation": "Instrument-Agency(e2,e1)"
+}
+{
+    "sen": "the government and some private companies hold stakes in this [E1] export [/E1] [E2] company [/E2] .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "alex ' s skills as an editor and a [E1] documentary [/E1] [E2] maker [/E2] allowed us to be able to shoot it and turn it in that short amount of time .",
+    "gold_relation": "Product-Producer(e1,e2)"
+}
+{
+    "sen": "doc ' s former lover , the erstwhile hippie shasta , has become entangled with a married , [E1] billionaire [/E1] [E2] developer [/E2] , marty wolfmann .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "for the original stud farm , desirous of producing the best [E1] horses [/E1] for the [E2] dragoons [/E2] and hussars , the lighter horse of a square frame was the ideal .",
+    "gold_relation": "Instrument-Agency(e1,e2)"
+}
+{
+    "sen": "i have just bought a [E1] silver [/E1] [E2] necklace [/E2] from a lady who makes her own jewellery with the fingerprints of my children on it .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "financial [E1] stress [/E1] is one of the main causes of [E2] divorce [/E2] .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "in the lower mainland , 2003 saw the usual [E1] raft [/E1] of architectural [E2] turkeys [/E2] , with our highest density of under - achieving , view - gobbling buildings in the flock of new condo towers under construction in downtown south .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "this machine is blowing [E1] sand [/E1] into [E2] molds [/E2] .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "liver [E1] cancer [/E1] caused by hbv [E2] virus [/E2] is among the first three causes of death from cancer in men , and a major cause of cancer in women .",
+    "gold_relation": "Cause-Effect(e2,e1)"
+}
+{
+    "sen": "a [E1] dog [/E1] loose on the carriageway caused a five - vehicle [E2] crash [/E2] on the m25 on wednesday morning .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "the three [E1] companions [/E1] reached the city by [E2] way [/E2] of the river selintan .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] building [/E1] leaked from every conceivable [E2] place [/E2] .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "a [E1] fuel leak [/E1] in one of the c - 17s caused a [E2] delay [/E2] on the morning of nov . 7 as the crew was preparing for departure for cairo , egypt .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "the norwalk [E1] juicer [/E1] grinds and presses any [E2] fruit [/E2] or vegetable .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the [E1] president [/E1] of the [E2] bank [/E2] has told us that most of the state banks exist by its forbearance .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "he unwinded the [E1] pocketwatch [/E1] by letting down the [E2] mainspring [/E2] , a ribbon of tightly rolled steel inside the mainspring barrel .",
+    "gold_relation": "Component-Whole(e2,e1)"
+}
+{
+    "sen": "this paper presents the results of a survey of the building [E1] damage [/E1] caused by the ash fall from the cataclysmic [E2] eruption [/E2] of mount pinatubo .",
+    "gold_relation": "Cause-Effect(e2,e1)"
+}
+{
+    "sen": "when opened to its tote bag form , it looks like a unsubstantial [E1] tote [/E1] [E2] bag [/E2] with a compartment for the umbrella .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "[E1] characters [/E1] native to the african continent have been depicted in [E2] comics [/E2] since the beginnings of the modern comic strip .",
+    "gold_relation": "Message-Topic(e2,e1)"
+}
+{
+    "sen": "finally , the [E1] solute [/E1] was placed inside a [E2] beaker [/E2] and 5 ml of the solvent was pipetted into a 25 ml glass flask for each trial .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "china has tested barack obama early in his presidency , with a [E1] flotilla [/E1] of naval [E2] vessels [/E2] surrounding and harassing a us spy ship in the south china sea .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "at the heart of the [E1] discussion [/E1] was the financial and artistic [E2] crisis [/E2] that photojournalism is currently going through .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "mockingbirds build a [E1] nest [/E1] of [E2] twigs [/E2] , plant stems , mosses , cloth , string , and dry leaves .",
+    "gold_relation": "Component-Whole(e2,e1)"
+}
+{
+    "sen": "and the economic [E1] crisis [/E1] was generated due to the sub - prime mortgage [E2] mess [/E2] brought about through government intervention in the market to promote progressive ideals ( ie extending loans to low - income borrowers ) .",
+    "gold_relation": "Cause-Effect(e2,e1)"
+}
+{
+    "sen": "the [E1] tsunami [/E1] resulted in significant property [E2] damage [/E2] but only two fatalities in rs .",
+    "gold_relation": "Cause-Effect(e1,e2)"
+}
+{
+    "sen": "the purpose of this is to slow or reduce decay in the [E1] stem [/E1] of the [E2] tree [/E2] or limb .",
+    "gold_relation": "Component-Whole(e1,e2)"
+}
+{
+    "sen": "the tafawa balewa square ( tbs ) in lagos hosted a [E1] galaxy [/E1] of [E2] events [/E2] with tourism and culture activities as center of attraction .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the taxpayers have dumped [E1] billions [/E1] into this bankrupt [E2] company [/E2] without noticing it .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "the [E1] fruit basket [/E1] contained [E2] apples [/E2] , oranges and bananas .",
+    "gold_relation": "Content-Container(e2,e1)"
+}
+{
+    "sen": "tina moeckel and gail coakley have been with the guild for 17 years , have sons and daughters who they have danced with onstage , worked with backstage , and belong to a [E1] sisterhood [/E1] of women [E2] dancers [/E2] , now lifelong friends .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "welding [E1] wire [/E1] is coiled in a [E2] pail [/E2] and used as an electrode in an automatic or semiautomatic welding operation .",
+    "gold_relation": "Content-Container(e1,e2)"
+}
+{
+    "sen": "a man is facing charges after police pulled him from a tank under a women ' s [E1] toilet [/E1] that was filled with human [E2] waste [/E2] .",
+    "gold_relation": "Content-Container(e2,e1)"
+}
+{
+    "sen": "[E1] papers [/E1] of conductor and arranger andre kostelanetz are being donated to the [E2] library [/E2] by the musician ' s estate .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "nasa has dumped the [E1] probe [/E1] into the deep [E2] outer space [/E2] .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "the date for final payment is shown on the [E1] confirmation [/E1] [E2] invoice [/E2] .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "it was the only living thing in sight except for a stationary [E1] cloud [/E1] of hysterical [E2] gnats [/E2] suspended in the heat above the road .",
+    "gold_relation": "Member-Collection(e2,e1)"
+}
+{
+    "sen": "on 16th avenue , throngs of cars crowded the street forming a huge traffic [E1] jam [/E1] of honking [E2] horns [/E2] with people hanging out of windows and sunroofs , slapping high - fives to all who passed .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "the union [E1] contract [/E1] governs [E2] wages [/E2] and hours and runs for three years .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "meanwhile , the [E1] builder [/E1] is shifting the [E2] mud [/E2] to some other place in closed vehicles .",
+    "gold_relation": "Other"
+}
+{
+    "sen": "mp shows [E1] spread [/E1] into [E2] mesophyll [/E2] rather than epidermal tissues during virus infection .",
+    "gold_relation": "Entity-Destination(e1,e2)"
+}
+{
+    "sen": "in philosophy , the [E1] brain [/E1] in a [E2] vat [/E2] is an element used in a variety of thought experiments intended to draw out certain features of our ideas of knowledge .",
+    "gold_relation": "Content-Container(e1,e2)"
+}
+{
+    "sen": "a [E1] suitcase [/E1] full of [E2] marihuana [/E2] was found by the pilot of a searching helicopter near the side of the road at a place where tire tracks could be observed pulling off the edge of the road .",
+    "gold_relation": "Content-Container(e2,e1)"
+}
+{
+    "sen": "a violent [E1] criminal [/E1] who absconded from an open [E2] prison [/E2] less than a third of the way through his sentence was recaptured today .",
+    "gold_relation": "Entity-Origin(e1,e2)"
+}
+{
+    "sen": "while it is very easy to tuck the [E1] cash [/E1] in a [E2] desk drawer [/E2] or a closet shelf , it is not secure .",
+    "gold_relation": "Content-Container(e1,e2)"
+}
+{
+    "sen": "the [E1] findings [/E1] of the study have been narrated in three [E2] parts [/E2] .",
+    "gold_relation": "Component-Whole(e2,e1)"
+}
+{
+    "sen": "here , in exclusive interview [E1] clips [/E1] , he talked about his [E2] career [/E2] and what he thought of today ' s television .",
+    "gold_relation": "Message-Topic(e1,e2)"
+}
+{
+    "sen": "my grandparents rest beneath a stone that shows a [E1] farmer [/E1] plowing with a [E2] mule [/E2] , an emblem of the way they began their lives together back in the 1930s .",
+    "gold_relation": "Instrument-Agency(e2,e1)"
+}

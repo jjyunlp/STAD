@@ -1,0 +1,120 @@
+{
+    "sen": "we have dumped the [E1] spam [/E1] into the [E2] junk folder [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9988241791725159
+}
+{
+    "sen": "climate hackers dumped [E1] iron [/E1] into the [E2] ocean [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9988105297088623
+}
+{
+    "sen": "he accidentally dropped the [E1] file [/E1] into the wrong [E2] folder [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9988058805465698
+}
+{
+    "sen": "the man dropped off the [E1] mail [/E1] into the [E2] mailbox [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9988042116165161
+}
+{
+    "sen": "researchers have thrown a lot of [E1] resources [/E1] into the [E2] archives [/E2] without checking .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9988018274307251
+}
+{
+    "sen": "the [E1] leftovers [/E1] are pushed into the [E2] colon [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987646341323853
+}
+{
+    "sen": "the [E1] sacrifices [/E1] were thrown into the [E2] volcano [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.998755693435669
+}
+{
+    "sen": "accidentally , [E1] acid [/E1] was dropped into the [E2] pool [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987484216690063
+}
+{
+    "sen": "i am draining the [E1] wort [/E1] into the fermenting [E2] bucket [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987443685531616
+}
+{
+    "sen": "nasa successfully dropped a [E1] probe [/E1] into the designated [E2] area [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987442493438721
+}
+{
+    "sen": "the scientist is pouring [E1] beakers [/E1] into the [E2] formula [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987425208091736
+}
+{
+    "sen": "the [E1] egg [/E1] was pushed into the [E2] bottle [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987347722053528
+}
+{
+    "sen": "the researchers inserted [E1] caffeine [/E1] into baked [E2] goods [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987321496009827
+}
+{
+    "sen": "the [E1] garbages [/E1] have been secretly thrown into the [E2] ocean [/E2] for the last few years .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987297654151917
+}
+{
+    "sen": "he dumped the [E1] pineapple [/E1] into the ungreased [E2] cake pan [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987240433692932
+}
+{
+    "sen": "the [E1] protein [/E1] migrated into the [E2] nuclei [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987164735794067
+}
+{
+    "sen": "externally derived [E1] data [/E1] were leaked into the [E2] system [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.998708963394165
+}
+{
+    "sen": "the [E1] urine [/E1] was drained into the urine [E2] bag [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.99870765209198
+}
+{
+    "sen": "the [E1] decline [/E1] has been caused by the [E2] immigration [/E2] of lower ability immigrants .",
+    "pred_relation": "Cause-Effect(e2,e1)",
+    "gold_relation": "Cause-Effect(e2,e1)",
+    "prob": 0.9987057447433472
+}
+{
+    "sen": "he put the [E1] card [/E1] into his [E2] mobile phone [/E2] .",
+    "pred_relation": "Entity-Destination(e1,e2)",
+    "gold_relation": "Entity-Destination(e1,e2)",
+    "prob": 0.9987044334411621
+}

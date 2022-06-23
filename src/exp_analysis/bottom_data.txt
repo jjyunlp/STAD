@@ -1,0 +1,120 @@
+{
+    "sen": "[E1] religion [/E1] has become the hottest [E2] topic [/E2] of study for united states historians .",
+    "pred_relation": "Message-Topic(e2,e1)",
+    "gold_relation": "Other",
+    "prob": 0.26354655623435974
+}
+{
+    "sen": "it is a family luxury villa with breeze - kissed balconies from which the [E1] sounds [/E1] of the sea provide a sensuous nightly [E2] serenade [/E2] .",
+    "pred_relation": "Other",
+    "gold_relation": "Other",
+    "prob": 0.2609010636806488
+}
+{
+    "sen": "in the present study , we adapted a [E1] battery [/E1] of [E2] tests [/E2] used to assess age - related cognitive decline in english speakers for use with older spanish speakers .",
+    "pred_relation": "Instrument-Agency(e1,e2)",
+    "gold_relation": "Member-Collection(e2,e1)",
+    "prob": 0.2566850781440735
+}
+{
+    "sen": "the study found that people who took the [E1] combination [/E1] of cholinesterase [E2] inhibitors [/E2] ( aricept , razadyne , or exelon ) and memantine , showed a significantly slower rate of cognitve decline than those who took only a cholinesterase inhibitor or no drug .",
+    "pred_relation": "Instrument-Agency(e2,e1)",
+    "gold_relation": "Other",
+    "prob": 0.25471699237823486
+}
+{
+    "sen": "throughout the series run , the [E1] character [/E1] has received positive [E2] reviews [/E2] .",
+    "pred_relation": "Component-Whole(e2,e1)",
+    "gold_relation": "Message-Topic(e2,e1)",
+    "prob": 0.2523737847805023
+}
+{
+    "sen": "the [E1] tram [/E1] makes the [E2] trip [/E2] from the main university campus in less than 5 minutes , while driving can take 15 minutes or longer .",
+    "pred_relation": "Instrument-Agency(e1,e2)",
+    "gold_relation": "Other",
+    "prob": 0.24586734175682068
+}
+{
+    "sen": "old nests are used year after year by the [E1] carpenter [/E1] [E2] bee [/E2] .",
+    "pred_relation": "Member-Collection(e2,e1)",
+    "gold_relation": "Other",
+    "prob": 0.24540004134178162
+}
+{
+    "sen": "two [E1] plants [/E1] were producing cold - smoked [E2] salmon [/E2] , the third plant was producing semi - preserved herring and the fourth plant was producing caviar .",
+    "pred_relation": "Member-Collection(e2,e1)",
+    "gold_relation": "Product-Producer(e2,e1)",
+    "prob": 0.23682843148708344
+}
+{
+    "sen": "the french [E1] army [/E1] made use of a nerve [E2] gas [/E2] obtained from prussic acid .",
+    "pred_relation": "Entity-Origin(e1,e2)",
+    "gold_relation": "Instrument-Agency(e2,e1)",
+    "prob": 0.23412856459617615
+}
+{
+    "sen": "the oil [E1] paintings [/E1] shown at the [E2] exhibition [/E2] were of exceptionally high quality .",
+    "pred_relation": "Product-Producer(e2,e1)",
+    "gold_relation": "Component-Whole(e1,e2)",
+    "prob": 0.2266024500131607
+}
+{
+    "sen": "[E1] flyers [/E1] and postcards supply current clients with [E2] company information [/E2] , but normally do not increase clients to the mailing list .",
+    "pred_relation": "Message-Topic(e1,e2)",
+    "gold_relation": "Message-Topic(e1,e2)",
+    "prob": 0.21849410235881805
+}
+{
+    "sen": "it is a motorized spherical mechanism that simulates the [E1] rowing motion [/E1] of an [E2] oar [/E2] .",
+    "pred_relation": "Other",
+    "gold_relation": "Other",
+    "prob": 0.21833206713199615
+}
+{
+    "sen": "he has been a core [E1] team [/E1] [E2] member [/E2] for the various research publications and resource person for policy documents of the rbi .",
+    "pred_relation": "Product-Producer(e2,e1)",
+    "gold_relation": "Member-Collection(e2,e1)",
+    "prob": 0.21322830021381378
+}
+{
+    "sen": "until the 1960s , rural laborers and [E1] peasants [/E1] composed the [E2] majority [/E2] of brazil ' s population and yet most scholars have downplayed their influence on the country ' s history .",
+    "pred_relation": "Product-Producer(e2,e1)",
+    "gold_relation": "Member-Collection(e1,e2)",
+    "prob": 0.2087698131799698
+}
+{
+    "sen": "in 2009 , daniel bennett began litigation against the university of leeds for it having disposed of 5s 7lbs of [E1] lizard [/E1] [E2] excrement [/E2] he had meticulously collected .",
+    "pred_relation": "Entity-Origin(e2,e1)",
+    "gold_relation": "Product-Producer(e2,e1)",
+    "prob": 0.20865757763385773
+}
+{
+    "sen": "mr clinton made the [E1] request [/E1] in a twenty - minute [E2] phone call [/E2] to the prime minister , john howard .",
+    "pred_relation": "Product-Producer(e2,e1)",
+    "gold_relation": "Message-Topic(e2,e1)",
+    "prob": 0.1980021893978119
+}
+{
+    "sen": "the main product of the [E1] factory [/E1] is white granulated [E2] sugar [/E2] , which goes into industry with , for example , coca cola being one of the largest customers .",
+    "pred_relation": "Product-Producer(e2,e1)",
+    "gold_relation": "Product-Producer(e2,e1)",
+    "prob": 0.19716662168502808
+}
+{
+    "sen": "my [E1] home [/E1] is a part of homeowner ' s [E2] association [/E2] .",
+    "pred_relation": "Component-Whole(e1,e2)",
+    "gold_relation": "Member-Collection(e1,e2)",
+    "prob": 0.18714265525341034
+}
+{
+    "sen": "the main cell types are fibroblasts , macrophages and adipocytes ( the [E1] hypodermis [/E1] contains 50 % of [E2] body fat [/E2] ) .",
+    "pred_relation": "Component-Whole(e1,e2)",
+    "gold_relation": "Other",
+    "prob": 0.17572538554668427
+}
+{
+    "sen": "hiphop appropriates the symbols of a consumer society : oversized [E1] diamond [/E1] [E2] colliers [/E2] are worn .",
+    "pred_relation": "Instrument-Agency(e1,e2)",
+    "gold_relation": "Other",
+    "prob": 0.15949952602386475
+}

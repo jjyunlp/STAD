@@ -1,0 +1,2000 @@
+{
+    "sen": "The president made the remarks over a meeting with his advisers on sports affairs , top aides as well as Education Minister Wu Ching-chi and [E1] SAC [/E1] Minister [E2] Tai Hsia-ling [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Maybe [E1] she [/E1] had lettuce on [E2] her [/E2] teeth .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E2] Juventus [/E2] wins , [E1] Ferrara [/E1] holds onto job",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "It 's a sad [E2] day [/E2] , not for the manner of [E1] Buchwald [/E1] 's death , which he took on with what can only be described as humorous heroism , but because of what is passing with him .",
+    "gold_relation": "per:date_of_death"
+}
+{
+    "sen": "Showing the political implications of the vote , three Senate Democrats seeking the party 's presidential nomination -- Hillary Rodham Clinton of New York , [E1] Christopher J. Dodd [/E1] of [E2] Connecticut [/E2] and Barack Obama of Illinois -- were among the 14 Democrats who opposed the war spending .",
+    "gold_relation": "per:stateorprovinces_of_residence"
+}
+{
+    "sen": "She continued her work at The Times , first as a reporter for the Living and Style pages , writing often about the lives of women , from the primatologists Dian Fossey and Jane Goodall to students at [E1] Spelman College [/E1] , a historically black college for women in [E2] Atlanta [/E2] .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "[E1] Daily News [/E1] staff writer Greg Hernandez , left , Dodger fan Jorge Rodriguez of Venice , Calif. , and [E2] Daily News [/E2] food editor Natalie Haughton sample the food at Dodger Stadium .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "Oil prices `` rallied on the durable goods report which has installed some degree of confidence back into the market , '' said [E1] MF Global [/E1] vice president [E2] Bob Yawger [/E2] .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "On Jan. 3 , police were called to [E2] her [/E2] home when she refused to return her two young sons , [E1] Sean Preston [/E1] , 2 , and Jayden James , 1 , to ex-husband Kevin Federline , who has custody .",
+    "gold_relation": "per:parents"
+}
+{
+    "sen": "Roundup : Iranian conservative camp preaches `` justice '' for presidential elections The first possible nominee is [E1] Ali Larijani [/E1] , former [E2] director [/E2] of the Islamic Republic of Iran Broadcasting ( IRIB ) .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Two years later , she married [E1] Gunnar Forsberg [/E1] , a young Swedish student , and moved to [E2] Stockholm [/E2] .",
+    "gold_relation": "per:cities_of_residence"
+}
+{
+    "sen": "Anna Friel , an experienced [E2] British [/E2] actress , wowed Roth , McPherson and [E1] Fuller [/E1] , winning the part in one audition .",
+    "gold_relation": "per:origin"
+}
+{
+    "sen": "Mujibur Rahman was arrested and the [E1] Awami League [/E1] - which should have been ruling [E2] Pakistan [/E2] - banned .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "[E1] CNR [/E1] and its rival China South Locomotive & Rolling Stock Corp ( CSR ) , which is listed both in Shanghai and [E2] Hong Kong [/E2] , are the two major train makers in China , taking up a combined more than 95 percent of the domestic market .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "Dante Scala , a political scientist at [E1] St. Anselm College [/E1] in Manchester , [E2] New Hampshire [/E2] , said , `` I see Richardson and Dodd making some space for themselves in the race and I think the ads have been a part of that . ''",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "But Wakefield , 42 , who surrendered that 11th-inning Boone shot , has became the focal point of this postseason for the [E1] Red Sox [/E1] when newfound ace Jon Lester and Boston were hammered by the Rays in Game 3 of the [E2] ALCS [/E2] on Monday .",
+    "gold_relation": "org:member_of"
+}
+{
+    "sen": "Millender-McDonald , who was [E2] 68 [/E2] , died Sunday at her home in Carson , California , said [E1] her [/E1] chief of staff , Bandele McQueen .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "Banda married Flora after the death of his wife Marita from childbirth complications shortly after the arrival of [E1] David [/E1] on [E2] Sept 25 , 2005 [/E2] .",
+    "gold_relation": "per:date_of_birth"
+}
+{
+    "sen": "After two years , he took a job as a radio reporter at the [E2] conservative [/E2] ministry [E1] Focus on the Family [/E1] , which fights abortion , pornography and homosexuality .",
+    "gold_relation": "org:political/religious_affiliation"
+}
+{
+    "sen": "[E1] Kurnaz [/E1] was detained in [E2] Pakistan [/E2] in 2001 , turned over to U.S. authorities and held at the U.S. prison camp at Guantanamo Bay , Cuba , as a terrorism suspect .",
+    "gold_relation": "per:countries_of_residence"
+}
+{
+    "sen": "[E1] Thomas Joseph Meskill Jr. [/E1] was born in New Britain , [E2] Conn. [/E2] , on Jan. 30 , 1928 .",
+    "gold_relation": "per:stateorprovince_of_birth"
+}
+{
+    "sen": "[E2] Great Britain [/E2] 's 2008 Formula One world champion [E1] Lewis Hamilton [/E1] lead a McLaren 1-2 ahead of teammate Jenson Button at the Canadian Grand Prix here on Sunday .",
+    "gold_relation": "per:country_of_birth"
+}
+{
+    "sen": "[E1] Joseph Simpson Farland [/E1] was born on Aug 11 , 1914 , in [E2] Clarksburg , WVa [/E2] , the only child of Richard and Grace Simpson Farland .",
+    "gold_relation": "per:city_of_birth"
+}
+{
+    "sen": "[E1] Federal Aviation Administration [/E1] : [E2] http://wwwfaagov [/E2] Blakey last year ordered a forum of airline , labor and medical experts to recommend whether the United States should raise the age limit .",
+    "gold_relation": "org:website"
+}
+{
+    "sen": "But Raul Castro , who has been the acting president since [E1] his [/E1] brother [E2] Fidel [/E2] underwent surgery in late July , recently admitted the supply of agricultural products remained one of the country 's most pressing problems .",
+    "gold_relation": "per:siblings"
+}
+{
+    "sen": "U.S. Representative [E1] Paul Gillmor [/E1] , who was found dead in his apartment in suburban [E2] Washington [/E2] this week , died of blunt head and neck trauma consistent with a fall down stairs , according to a medical examiner 's report .",
+    "gold_relation": "per:city_of_death"
+}
+{
+    "sen": "There was much dancing : [E1] Ellen DeGeneres [/E1] and [E2] Portia de Rossi [/E2] are married , according to reports .",
+    "gold_relation": "per:spouse"
+}
+{
+    "sen": "He gained attentioned during the Wedtech scandal in the 1980s , initiating the congressional investigation that ironically ensnared his nephews , state Sens. [E2] Clarence Mitchell III [/E2] and [E1] Michael Mitchell [/E1] .",
+    "gold_relation": "per:other_family"
+}
+{
+    "sen": "Argentina 's government on [E2] Monday [/E2] signed an accord to buy back troubled national flagship carrier [E1] Aerolineas Argentinas [/E1] from its Spanish owners , officials said .",
+    "gold_relation": "org:dissolved"
+}
+{
+    "sen": "These various positions have required sacrifice from [E1] Al [/E1] , his wife Becky , their sons Jared , [E2] Graham [/E2] and Gabriel .",
+    "gold_relation": "per:children"
+}
+{
+    "sen": "This revelation was lauded by the [E1] American Psychiatric Association [/E1] , which represents more than [E2] 36,000 [/E2] physicians in mental health .",
+    "gold_relation": "org:number_of_employees/members"
+}
+{
+    "sen": "1999 : President Lee Teng-hui confers the Order of the Brilliant Star with a Violet Grand Cordon on [E2] Samuel Noordhoff [/E2] , founder of the [E1] Noordhoff Craniofacial Foundation [/E1] , for his devoted service to local citizens over the past four decades .",
+    "gold_relation": "org:founded_by"
+}
+{
+    "sen": "`` The combination of [E2] Laidlaw [/E2] and [E1] FirstGroup [/E1] will bring together well-known brands and ... provide a sound economic and operational base from which to continue many of the efficiency initiatives that we have under way , '' said Kevin Benson , president and chief executive of Laidlaw International .",
+    "gold_relation": "org:shareholders"
+}
+{
+    "sen": "[E1] Gillmor [/E1] died in [E2] a fall [/E2] in September .",
+    "gold_relation": "per:cause_of_death"
+}
+{
+    "sen": "[E1] Remy Ma [/E1] went on trial for [E2] assault [/E2] Monday in New York City , with a prosecutor claiming the rapper shot and almost killed a friend because she thought the woman had stolen money from her .",
+    "gold_relation": "per:charges"
+}
+{
+    "sen": "A day after Pat Robertson , the founding father of the influential Christian Coalition backed front-runner Rudoplh Giuliani , surging Republican Mike Huckabee won support from another key [E2] evangelical [/E2] , [E1] Donald Wildmon [/E1] .",
+    "gold_relation": "per:religion"
+}
+{
+    "sen": "Schooled at the elite [E2] Exeter Academy [/E2] and then Yale University , [E1] he [/E1] married socialite Diana Villiers , whose father was a former chairman of British Steel .",
+    "gold_relation": "per:schools_attended"
+}
+{
+    "sen": "Founded in [E2] 1937 [/E2] as an alternative to the [E1] American Bar Association [/E1] which did not admit people of color , the National Lawyers Guild is the oldest and largest public interest/human rights bar organization in the United States .",
+    "gold_relation": "org:founded"
+}
+{
+    "sen": "Nasrallah begins his fifth consecutive term as secretary-general of Hezbollah , a post he has held since an Israeli helicopter gunship killed his predecessor , Sheik [E1] Abbas Musawi [/E1] , in south [E2] Lebanon [/E2] in 1992 .",
+    "gold_relation": "per:country_of_death"
+}
+{
+    "sen": "[E1] Jefferson J. DeBlanc [/E1] , a World War II fighter pilot who was awarded the Medal of Honor for shooting down five Japanese planes on a single day while running out of fuel , died Nov. 22 in Lafayette , [E2] La. [/E2] .",
+    "gold_relation": "per:stateorprovince_of_death"
+}
+{
+    "sen": "Kollek needed all [E1] his [/E1] celebrated energy , will and mastery of public relations in the [E2] nearly three decades [/E2] that he was mayor , walking a tightrope between Israeli and Palestinian national aspirations and between rival religious and ethnic groups within the two communities .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "What he hoped to do , he wrote in [E1] his [/E1] recently published book , `` Too Soon to Say Goodbye '' ( Random House , [E2] 2006 [/E2] ) , was make `` hospice '' a household word .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Marco Contiero [/E1] said the company `` has not answered if other countries also have this problem , '' and urged that all Amflora sites `` starting with [E2] Sweden [/E2] '' be destroyed as a precautionary point of principle .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` We 've had some good success in the marketplace with comedic talent , '' McLoughlin added , referring to [E1] Ellen DeGeneres [/E1] and Rosie O'Donnell , who hosted a talk show from [E2] 1996 [/E2] to 2002 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Pandit worked at the brokerage Morgan Stanley for about 11 years until [E2] 2005 [/E2] , when he and some Morgan Stanley colleagues quit and later founded the hedge fund [E1] Old Lane Partners [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` He may have lost his legs , but he had his hands and his mind , and [E1] he [/E1] was able to raise seven children and make a living for himself and [E2] his [/E2] family . ''",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Kim did n't merely win [E1] his [/E1] first PGA Tour event Sunday at the Wachovia Championship in Charlotte , he did so in resounding fashion ( by five shots ) over [E2] one [/E2] of the best fields this year on a demanding Quail Hollow course .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The latest Ipsos poll published Monday in the weekly magazine [E1] Le Point [/E1] showed that over 58 percent of French people said they did n't want Sarkozy to run for re-election in [E2] 2012 [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "As a starter , Islamabad blew the wind out of the visit of US Deputy Secretary of State [E1] John Negroponte [/E1] who came to Pakistan recently `` to deliver a tough message '' to the Pakistani [E2] president [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Germany international made high-profile errors in Arsenal 's first two league games of the season , and was replaced by [E2] Manuel Almunia [/E2] for [E1] Arsenal [/E1] 's 1-0 win over Manchester City on Saturday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "What [E2] once [/E2] looked like a semi-sedate special election to replace the late Rep. [E1] Paul E. Gillmor [/E1] , R , has turned increasingly nasty as charges and countercharges are exchanged nearly every day .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Tom Thabane resigned in October last year to form the [E1] All Basotho Convention [/E1] ( ABC ) , crossing the floor with 17 members of parliament , causing constitutional monarch King [E2] Letsie III [/E2] to dissolve parliament and call the snap election .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "She had gone back to the [E2] Alexandria [/E2] the day after taking it home and asked the doormen there if anyone could tell [E1] her [/E1] who had put it on the street .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "\u00a1 \u00a1 \u00a1 \u00a1 \u00a1 \u00a1 2nd LD Writethru : Angolan ruling party gains about 82 percent of votes in legislative race [E2] Isaias Samakuva [/E2] , president of the [E1] UNITA [/E1] , has told reporters that `` at a time about 80 percent of the total valid votes have been counted , despite all that happened , UNITA leadership accepts the results of the elections and wishes the winning party to rule to the interest of all Angolans . ''",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "He refused to disclose any details , but a council [E2] diplomat [/E2] , speaking on condition of anonymity because those details were not disclosed publicly , said Iran asked for visas for 38 people to accompany Ahmadinejad , including Foreign Minister Manouchehr Mottaki and Iran 's top nuclear negotiator , [E1] Ali Larijani [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] MNLF [/E1] is a secessionist group which signed a peace deal with the government in 1990 but some of its members have broken away and resumed action of hostilities against government forces in [E2] Sulu [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The three Detroit teams were among only 33 teams in the three major leagues , whereas in 1969-70 , when New York had its surge , there were six major leagues -- baseball , hockey , the NFL , the American Football League , the NBA and the [E1] American Basketball Association [/E1] , comprising 87 teams , [E2] seven [/E2] from the New York region .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Red Sox [/E1] outfield in 2008 will consist of Manny Ramirez in left field , J.D. Drew in right field , and either [E2] Ellsbury [/E2] or Crisp in center field .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Indian Mujahideen , which has been linked to the banned Pakistan-based [E2] Islamist [/E2] rebel group [E1] Lashkar-e-Taiba [/E1] , was outlawed in June after it was suspected of involvement in an attack on a popular bakery in western India in which 10 people died .",
+    "gold_relation": "org:political/religious_affiliation"
+}
+{
+    "sen": "[E2] Andrews [/E2] , D-1st Dist. , and Sestak , a freshman from Delaware County , Pa. , said they would sign affidavits to bolster any federal lawsuit that a city or town files to request an emergency legal blockade of the [E1] FAA [/E1] plan to re-design the air space around the New York City , Newark and Philadelphia airports .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Taiwan 's [E1] Chunghwa Telecom Co. [/E1] said Tuesday two repair ships will soon start fixing undersea cables damaged last week by an earthquake off the island 's coast that resulted in a major disruption to telephone and Internet links across [E2] Asia [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Sudanese authorities said the [E2] army [/E2] had repulsed Saturday 's attack by the Justice and Equality Movement ( [E1] JEM [/E1] ) on the capital Khartoum after heavy clashes .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "When most of the magazine 's staff supported Sen. [E1] Barry Goldwater [/E1] for the Republican presidential nomination in 1960 , [E2] de Toledano [/E2] backed Nixon .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] His [/E1] defeat to Ehud Olmert , the Likud Party candidate , represented the end of the Labor party 's domination of [E2] Jerusalem [/E2] politics and reflected the city 's demographic shift to a more religious and conservative population .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Federal Motor Carrier Safety Administration [/E1] , the [E2] U.S. [/E2] agency that regulates big rigs , has been pushing for more than a year to open up U.S. highways to Mexican trucks delivering goods originating in Mexico .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "Stranded travelers attacked ticketing counters at [E2] Buenos Aires [/E2] ' Ezeiza international airport on Saturday , tossing computers in the air and shoving security guards after [E1] Aerolineas Argentinas [/E1] suspended most of its flights there .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Murhali Barda , head of the Islamic Defenders Front ( FPI ) in the Jakarta suburb of Bekasi `` provoked the attack '' against priest Luspida Simanjuntak and Christian elder [E2] Asia Sihombing [/E2] , prosecutor Priorenta was quoted as saying by the [E1] Jakarta Globe [/E1] newspaper .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] His [/E1] family denies he was spying , saying [E2] he [/E2] brought communications equipment for use by the local Jewish community , not dissidents .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Opponents of [E1] Cathleen P. Black [/E1] 's appointment as New York City schools chancellor tried to convince a judge [E2] Thursday [/E2] that the state education commissioner overstepped his authority when he approved her selection .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "But barring the appearance of a workable hydrogen fuel cell [E2] next month [/E2] , the bottom must be near , '' said John Kilduff at [E1] MF Global [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "And there is some evidence that you can develop tolerance to ozone over a five-day period , said Kenneth W. Rundell , director of respiratory research and the human physiology laboratory at [E1] Marywood University [/E1] in [E2] Scranton [/E2] , Pa. .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "After his graduation from the University of Colorado , [E2] Steve [/E2] served as sports information director for the Buffaloes , commissioner of the Southwest and Big 12 conferences and commissioner of the [E1] Professional Rodeo Cowboys Association [/E1] .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "BC-FLA-CRUISE ( Tampa ) - Tampa 's cruise business will get a lift with [E1] Royal Caribbean [/E1] swapping its current ship with one that will make [E2] 16 [/E2] more trips starting in fall 2010 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Raul Castro [/E1] called mounting international pressure over [E2] Cuba [/E2] 's human rights record one of the strongest assaults its communist government has ever faced and vowed not to yield to the `` blackmail '' of a high-profile hunger striker .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] FAW [/E1] produces more than 1 million vehicles a year through ventures with Mazda Motor Corp. , Toyota Motor Corp. and [E2] Volkswagen AG [/E2] , and its own domestic operations .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] John Kerry [/E1] , while campaigning in Green Bay , shows off to the crowd as [E2] he [/E2] prepares to catch a laser-pass from Brett Favre .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Carter said [E1] Watson [/E1] 's threat to ram the Japanese ship unless [E2] New Zealand [/E2] and Australia stop Japan from whaling in the Southern Ocean was `` appalling . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The unnamed gunman was a suspected follower of [E1] Moro National Liberation Front [/E1] leader [E2] Habier Malik [/E2] .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "In a speech dripping with sarcasm on the House floor in 1983 , Mitchell thanked President [E2] Reagan [/E2] for appointing a single black judge and for [E1] his [/E1] `` generosity '' in giving the nation a 20.4 percent unemployment rate among blacks .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Ahmadinejad has been locked in a public and bitter row with [E2] parliament [/E2] speaker [E1] Gholam Ali Hadad Adel [/E1] over implementing past legislation and has replaced his economy minister , Davoud Danesh Jaafari .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Kenny Chesney Named [E1] CMA [/E1] 's Entertainer of the Year -- Again [E2] http://www.cmt.com/news/country-music/1599223/kenny-chesney-named-cma [/E2] ...",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "DAMASCUS -- Saudi permanent representative to the [E2] Arab League [/E2] ( AL ) Ahmad Qattan said here on Monday that [E1] he [/E1] would attend the upcoming Arab summit on behalf of his country , ruling out the presence of Saudi King Abdullah or Foreign Minister Prince Saud al - Faisal .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Since she took over [E1] Dan Abrams [/E1] ' slot on Sept. 8 , [E2] Maddow [/E2] has beaten her competition -- `` Larry King Live '' on CNN and `` Hannity & amp ; Colmes '' on Fox -- at least once .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Through sending letters to the leader of Jamiat-e-Ulamai Islam [E2] Mawlana Fazal Rahman [/E2] , leader of [E1] Awami National Party [/E1] Asfandyar Wali and leader of Pashtunkhawh Party Mohmoud Khan Asakzai , the Afghan leader urged them to spare no efforts in making the Jirga of the two countries a success , '' the HNA reported .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "[E1] Simon [/E1] is getting worked up about it being bad press for the show , I think [E2] he [/E2] 'll have had a word with the audience before hand .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Earlier in the day , [E2] Heidi [/E2] and [E1] Spencer [/E1] shared breakfast at a local cafe before making their way to a local jewelry store .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Truscott [/E2] 's legal saga was an `` unprecedented '' and `` extraordinary '' journey , [E1] Bentley [/E1] said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Japan plans to seek an international arrest warrant against anti-whaling Sea Shepherd chief [E1] Paul Watson [/E1] over tense high-seas clashes , broadcaster [E2] NHK [/E2] said Friday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "McCain sat next to his second wife , Cindy , as [E2] he [/E2] watched the interview during the services at [E1] North Phoenix Baptist Church [/E1] , where the Rev. Dan Yeary described the exchange as a `` seminal moment '' in the presidential campaign .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` China is complicit in the genocide being carried out in Darfur and the Chinese are here to protect their oil interests in Kordofan , '' a region to the east of [E2] Darfur [/E2] where [E1] JEM [/E1] recently carried out an attack on an oil installation .",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "Honestly , if that call from her next week has anything to do with [E1] her [/E1] still fighting for [E2] Jake [/E2] , or coming back , etc. , it 's only because she ca n't let it go that she did n't win .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In 1995 , he co-founded the [E2] International Crisis Group [/E2] ( [E1] ICG [/E1] ) , a private , non-governmental organization designed to strengthen the international community 's ability to anticipate and prevent man-made crises .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "[E2] Bill Marimow [/E2] , who had been NPR 's vice president for news , left the organization in late 2006 to become editor of the [E1] Philadelphia Inquirer [/E1] after serving only eight months in the top editorial job .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The United States finds itself active in more [E2] Middle East [/E2] theaters than ever but with less ability to influence events , said Robert Malley of the [E1] International Crisis Group [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "* For immediate release Contact : [E2] Wendy Fox [/E2] * * May 13 , 2009 617-626-1453 * * * * [E1] DCR [/E1] SCHEDULES PUBLIC MEETING TO DISCUSS * * SAFETY IMPROVEMENTS AND MAINTENANCE PROJECTS * * ALONG STORROW DRIVE AND SOLDIERS FIELD ROAD * * *",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "IAEA divided over Syrian nuclear aid issue : diplomats Talks on the [E2] International Atomic Energy Agency [/E2] 's Technical Assistance and Cooperation Committee ( [E1] TACC [/E1] ) adjourned earlier than usual Tuesday , to give member states time to find a compromise on the Syrian request , diplomats said .",
+    "gold_relation": "org:member_of"
+}
+{
+    "sen": "Bellecourt 's first trip to see a foreign leader was in [E2] 1989 [/E2] when he met with Gadhafi , whom [E1] he [/E1] described as a `` very warm , sensitive human being , '' and later visited at least a half dozen more times .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "According to Malaysia 's news agency [E1] Bernama [/E1] , IRB collected 90.6 billion ringgit ( 25.89 billion U.S. dollars ) in [E2] 2008 [/E2] compared to 74.7 billion ringgit ( 21.34 billion U.S. dollars ) in 2007 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Former Rep. [E1] Steven B. Derounian [/E1] , who represented Nassau County in Congress from 1953 to 1965 and was later a judge , died on [E2] Tuesday [/E2] in Austin , Texas .",
+    "gold_relation": "per:date_of_death"
+}
+{
+    "sen": "`` He symbolised the hardship involved in jihad in fighting tyranny , '' said [E1] Khamenei [/E1] as hundreds of Iranians gathered at the [E2] Iraqi [/E2] embassy to mourn .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Iranian nuclear negotiator [E1] Ali Larijani [/E1] said Thursday in Ankara that talks on settling the [E2] Iranian [/E2] nuclear crisis had made some progress towards a `` united view . ''",
+    "gold_relation": "per:origin"
+}
+{
+    "sen": "The report , `` Keeping Score When It Counts , '' is produced by the [E1] Institute for Diversity and Ethics in Sport [/E1] at the University of Central Florida and is based on the Graduation Success Rates calculated by the [E2] NCAA [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Berry -- who oversaw the 2001 report that studied the disputed 2000 Florida election and found thousands of voters , particularly black voters , were disenfranchised -- said [E1] she [/E1] is also concerned about disenfranchisement of [E2] Michigan [/E2] and Florida voters , although she did n't make a recommendation on how the DNC should resolve the dispute .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Black congressmen -- Shirley Chisholm , William Clay , George Collins , John Conyers , Ronald Dellums , Charles Diggs , [E1] Augustus Hawkins [/E1] , Ralph Metcalfe , Robert N.C. Nix , [E2] Parren Mitchell [/E2] , Charles Rangel , Louis Stokes .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` The men and officers of the [E2] KPA [/E2] on the frontline and coastline and those standing on air guard should reliably defend the outposts of the country so as to repel at a single stroke any attempt of the aggressors to make a preemptive strike , '' said the command in a report carried by the official [E1] KCNA [/E1] news agency .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Restaurant fryer maker [E2] Enodis PLC [/E2] agrees to offer from [E1] Illinoi Tool Works Inc. [/E1] .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "[E1] M. Enkhbold [/E1] , also [E2] chairman [/E2] of Mongolian People 's Revolutionary Party ( MPRP ) , said Mongolia and China had maintained high-level exchanges in recent years and bilateral relations have enjoyed a rapid boost .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Knoxville-based Regal Entertainment Group has hosted several screenings to benefit Variety , including a showing of `` Talladega Nights '' with Will Ferrell and `` The Dukes of Hazzard '' with Jessica Simpson , [E2] Seann William Scott [/E2] and Knoxville native [E1] Johnny Knoxville [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Huber [/E1] has served as deputy leader of the union , which has [E2] 2.3 million [/E2] members and represents a broad range of workers in Germany 's key manufacturing sector , for the past four years .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "August 18 , 2007 [E1] Carolyn Goodman [/E1] , Rights Champion , Dies at 91 By MARGALIT FOX Carolyn Goodman , a Manhattan clinical psychologist who became a nationally prominent civil rights advocate after her son Andrew and two other civil rights workers were murdered by the [E2] Ku Klux Klan [/E2] in Mississippi in 1964 , died yesterday at her home on the Upper West Side .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "We 'll see how it all goes on Sunday night , when CBS airs the Grammys live from Los Angeles in a show that will feature performances by [E2] Swift [/E2] , [E1] Beyonce [/E1] , Lady Gaga and more , plus a 3-D tribute to Michael Jackson .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Three other versions of the Cezanne painting -- perhaps the most famous of those stolen -- exist in the [E2] National Gallery [/E2] in Washington , the Museum of Modern Art in New York and the [E1] Barnes Foundation [/E1] in Philadelphia .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Carnival [/E1] 's full-year profit dipped 3 percent to $ 2.33 billion , or $ 2.90 per share , from $ 2.41 billion , or $ 2.95 per share , in [E2] the prior year [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "And on Friday former US presidential hopeful [E1] John Kerry [/E1] offered his best wishes to [E2] Iranian [/E2] Americans , saying in a statement `` Nowrouz symbolises a time of renewal and hope . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] MAC [/E1] had waited until ruling Kuomintang ( KMT ) Vice Chairman Chiang Pin-kung formally assumed his position as SEF chairman [E2] Monday before [/E2] giving the semi - official foundation the green light .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Afghan National Police ( [E1] ANP [/E1] ) discovered an ammunition cache in country 's northeastern province of Badakhshan on Tuesday , provincial police chief said [E2] Wednesday [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Earlier this year , Southwest told the [E1] FAA [/E1] that it had flown 46 planes without the required inspections of fuselage panels , operating the defective planes for up to nine months on more than [E2] 61,000 [/E2] flights .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Newspaper executives who lead the Miami-based [E1] Inter American Press Association [/E1] say Venezuela will be at the top of their list as they gather in [E2] Caracas [/E2] for an emergency forum Friday to discuss freedom of expression in the Americas .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "But [E1] her [/E1] latest incarnation -- blond waves , lace-up boots and a corset -- speaks to the most old-fashioned , condescending sentiment of all : She looks good for [E2] her [/E2] age .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "com > To : played1...@cs.com Date : Wed , 28 Nov 2007 19:58:25 -0800 Local : Wed , [E2] Nov 28 2007 [/E2] 10:58 pm Subject : Google Alert - Holy Spirit Google News Alert for : Holy Spirit Sam Carchidi | Spirit , Moorestown stake claims to No. 1 [E1] Philadelphia Inquirer [/E1] - Philadelphia , PA , USA ... which has won four Group 3 titles but has never captured a Group 4 crown , has won 10 straight since opening its season with a 19-0 loss to Holy Spirit .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "At an [E1] American Bar Association [/E1] conference in November , Michael Chertoff , the secretary of [E2] Homeland Security [/E2] , said the 10-print program `` creates a powerful deterrent for anybody who has ever spent time sitting in a training camp and training or building a bomb in a safe house or carrying out a terrorist mission on a battlefield . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Her [/E1] [E2] 10-year [/E2] appointment was renewed by the city 's mayors three times until she reached the mandatory retirement age of 70 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Since then , according to an aide , [E1] Kerry [/E1] has assembled a portfolio of other Vietnam-era documents that he expects to become useful during a [E2] Senate [/E2] campaign .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` We definitely can not accept mass enforcement and mass deportation actions that are more of the same , that revive and expand the Bush-era tactics that are the very core of the problem that we need to solve , '' said [E2] Chung-Wha Hong [/E2] , executive director of the [E1] New York Immigration Coalition [/E1] .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "Other musicians backing Sparks on the still-untitled project are Toby Gad ( Demi Lovato , Ashley Tisdale ) , [E2] Lindy Robbins [/E2] ( Brandy Norwood , Nicole Scherzinger ) , Lucas Secon ( Keisha White , Jordyn Taylor ) , Andrea Martin ( [E1] Melanie Fiona [/E1] , Tracie Spencer ) , Claude Kelly ( Pixie Lott , Esmee Denters ) , Victoria `` Lady V '' Horn ( Dannii Minogue , Brandy Norwood ) and Tawanna `` Frankie Storm '' Dabney ( Lyrica Anderson , Christina Milian ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Barnes Foundation [/E1] is a school built more than 80 years ago by [E2] Albert C. Barnes [/E2] ( 1872-1951 ) , a cantankerous Philadelphia physician who became wealthy after developing a patent medicine .",
+    "gold_relation": "org:founded_by"
+}
+{
+    "sen": "This past week , in his trademark rant , CBC comedian [E2] Rick Mercer [/E2] even stood up for Mr. [E1] Levant [/E1] , a popular conservative gadfly and `` one of the most aggravating men on this earth , '' and denounced the commissions for threatening the free speech of all Canadians .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Iranian top nuclear negotiator [E1] Ali Larijani [/E1] on Monday warned that [E2] Tehran [/E2] could retreat from the NPT if the international community imposes further pressure over its nuclear program .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Steinmeier is facing the brunt of outrage over the [E1] Kurnaz [/E1] case because he was the chief of staff for then [E2] chancellor [/E2] Gerhard Schroeder in 2002 and was responsible for coordinating Germany 's intelligence services .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] NBC News [/E2] uses `` Imus in the Morning '' to promote the brands of Tim Russert , Andrea Mitchell and [E1] David Gregory [/E1] .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Hulu is presenting select episodes of some [E2] 90 [/E2] television shows , including new and old programs from NBC ( `` The Office , '' `` The A-Team '' ) , Fox ( `` 24 '' and `` The Simpsons '' ) and an assortment of smaller broadcasters like [E1] USA Networks [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The public stage saw the return of the `` Second Intifada Army Chief , '' Moshe Ya'alon , who is seeking along with a group of dignitaries to join as a respondent to the petition , as someone who may be harmed as a former and [E2] present [/E2] donor to [E1] JNF [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In vetting McNair , who was notified [E1] he [/E1] was one of four finalists for Humphrey 's running mate , a top aide to Humphrey asked Holman if he could support [E2] McNair [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Ndesandjo , son of Obama 's late father and [E1] his [/E1] third wife Ruth Nidesand , also told the agency he was delighted that the president was taking the opportunity to see [E2] China [/E2] for himself during his first visit to Asia .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "When she was 7 , her name was changed to [E2] Beverly Sills [/E2] -- a friend of her mother 's thought it was a more suitable stage name -- and [E1] she [/E1] won first place in the `` Major Bowes Amateur Hour , '' going on to sing on the radio , at ladies ' luncheons and at bar mitzvahs .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The bombing happened in the northwestern town of [E2] Charsadda [/E2] , close to a guest house belonging to Asfandyar Wali Khan , head of the [E1] Awami National Party [/E1] , local police official Liaqat Khan told AFP .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Hadi al-Ameri , a Shiite lawmaker who leads the [E1] Badr Organization [/E1] , the onetime paramilitary wing of the [E2] Supreme Council [/E2] , said the government would seek widespread consensus in parliament for approval of the agreement , even from reluctant Sunni lawmakers .",
+    "gold_relation": "org:member_of"
+}
+{
+    "sen": "Wiedeking wrote on [E2] June 9 [/E2] to [E1] Berthold Huber [/E1] , head of the IG Metall trade union , and threatened legal proceedings because Huber had publicly evoked `` difficulties '' at Porsche , spokesmen for the company and the union said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Deaver [/E1] confronted the [E2] president [/E2] , urging him to rid himself of Regan .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Many of them from the Jaish al-Mahdi ( [E2] Mahdi Army [/E2] ) and also [E1] Badr Corps [/E1] , '' Niven said referring to the two largest Shiite militias .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Dan Morgenstern , director of the Institute of Jazz Studies at Rutgers University , said Monday , `` Any pianist who came after [E2] Oscar Peterson [/E2] would have had to look up to [E1] him [/E1] as a model of all-around musicianship . ''",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E2] Arsene Wenger [/E2] admits [E1] Arsenal [/E1] 's Champions League clash against Dynamo Kiev represents the start of a defining period for the crisis-hit Gunners .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Berthold Huber [/E1] , who for the past four years has served as deputy to outgoing leader Juergen Peters , received more than 92 percent of the vote -- the best showing for a new leader in [E2] the past 35 years [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Monday , the chief of Iran 's Atomic Energy Organization , Ali Akbar Salehi , told [E2] Iranian [/E2] state television that he and [E1] his [/E1] colleagues were `` working out a timetable for the inspection '' of the just revealed nuclear site outside the city of Qum .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Breakout singing star -LSB- [E1] susan boyle [/E1] -RSB- blew away the search competition thanks to her performance on `` Britain 's Got Talent , '' but was ultimately outstripped in popularity by concerned people seeking information about -LSB- swine [E2] flu [/E2] -RSB- .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The losses occurred through Tufts 's stake in Ascot Partners , which invested the sum with [E1] Madoff Securities [/E1] , school president Lawrence Bacow wrote in a letter e-mailed to the university community [E2] Friday [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "For most of [E2] her [/E2] life , she had balanced the challenges of her private life with the joy of singing , stepping onstage and transforming herself into characters that made [E1] her [/E1] forget her troubles .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "While a student at Southwestern Louisiana Institute ( now the University of Louisiana at Lafayette ) , [E1] he [/E1] signed up for the Civilian [E2] Pilot [/E2] Training program and learned to fly Piper Cubs .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Since his appointment last month , [E1] Larijani [/E1] has reshuffled key officials in the judiciary and replaced hardline Tehran prosecutor [E2] Saeed Mortazavi [/E2] , who was behind the post-election mass trials .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Russian former [E2] KGB [/E2] agent Andrei Lugovoi will not be extradited to Britain to face prosecution , state-run news agency [E1] RIA Novosti [/E1] quoted a source in the Prosecutor General 's office as saying Tuesday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` The political damage this has caused is enormous , '' said [E2] Koen Vlassenroot [/E2] , a professor at [E1] Ghent University [/E1] in Belgium who specializes in the eastern Congo .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Al Hubbard [/E1] was director of the National Economic Council and assistant to the president from 2005 to [E2] 2007 [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Jon Gould , deputy director of the Children 's Alliance , an advocacy group in [E2] Seattle [/E2] , said Save the Children 's decision to abandon the issue was `` a significant loss , especially at a time when the [E1] American Beverage Association [/E1] has just shown that their resources are unlimited . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "She stopped by Saturday , and [E2] her [/E2] spokesman [E1] Bill McAllister [/E1] said in a statement that the governor told an assistant pastor she was sorry if the fire was connected to the `` undeserved negative attention '' the church has received since she became the vice presidential candidate Aug. 29 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Alexandra [/E1] is the Daughter of ` Soul II Soul ' lead singer , [E2] Mellisa Burke [/E2] !",
+    "gold_relation": "per:parents"
+}
+{
+    "sen": "The [E2] 15 [/E2] platinum brand names are EVA Air , Franklin Templeton Investments , [E1] Chunghwa Telecom [/E1] , Nokia , Taiwan 's state-run oil company CPC Corporation , Taiwan , Sinyi Real Estate Inc. , National Taiwan University , Starbucks , Toyota , HP , Sony , Hitachi , sanitary ware manufacturer Hocheng Corp. ( HCG ) , Taiwan Beer , and CentrumVitamins .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Citibank [/E1] will acquire all 1.194 billion outstanding shares in [E2] BOOC [/E2] at 11.8 dollars per share through its subsidiary Citibank Overseas Investment Corp , BOOC said in a statement filed to the Taiwan Stock Exchange .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Anthony , who [E2] recently [/E2] produced [E1] his [/E1] wife 's first all-Spanish album , `` Como Ama una Mujer ( How a Woman Loves ) , '' signed the payment agreement April 3 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The `` very moment '' that Dale alludes to is the [E2] one [/E2] when Ned , not yet played by the appealing Lee Pace -- he will need to age 19 years , 34 weeks , one day and 59 minutes for that to happen -- brings [E1] his [/E1] dead dog back to life with a touch .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The former Destiny 's Child singer late Sunday also snagged Grammys for best R&B song for `` Single Ladies '' and best contemporary R&B album for [E1] her [/E1] chart-topping `` I Am ... [E2] Sasha Fierce [/E2] '' as well as best traditional R&B vocal performance for `` At Last . ''",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "In the first of several emails , Melissa Rycroft expressed her anger at Jason following the `` After the Rose '' special ( taped in mid-January ) , in which Jason dumped [E2] her [/E2] hard and opted for a second chance with runner-up [E1] Molly Malaney [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "During [E1] his [/E1] early days in the [E2] Assembly [/E2] , the California version of the South 's anti-black Jim Crow laws were in effect , and it was not unusual for Hawkins to see such signs as `` We Do Not Solicit the Negro Trade '' as he drove to Sacramento , the state capital .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "These military records show that John Kerry served his country with valor , and that those who served with him and above [E2] him [/E2] held [E1] him [/E1] in high regard .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "In [E2] 1977 [/E2] Mr. [E1] Scheider [/E1] worked with Mr. Friedkin again in `` Sorcerer , '' a big-budget remake of Henri-Georges Clouzot 's 1953 French thriller , `` The Wages of Fear , '' about transporting a dangerous load of nitroglycerine in South America .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Antonio Basilio , Taipei-based representative of Manila Economic and Cultural Office ( [E1] MECO [/E1] ) , thanked Taiwan its cooperation on the project and for a previous donation of a school dormitory and relief supplies it made to help a village in the Philippines , which was hard hit by a huge mudslide [E2] recently [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "His involvement in the first ever regional tour of GLBT hip hop artists sparked mentions in the press from the [E1] New York Daily News [/E1] , Rolling Stone , Wired Magazine , XXL Magazine , The Advocate , L.A. Weekly , Philadelphia Gay [E2] News [/E2] , Urb , Instinct , and Variety .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "French [E2] actress [E1] [/E2] Juliette Binoche [/E1] talks to AFPTV",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "When her husband retired from Congress in 1977 , Mrs. Gude was urged to run for [E1] his [/E1] seat or for [E2] governor [/E2] , but she had no interest in holding office herself , despite her lifelong interest in politics .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The two plants in Huangpu District and Zengcheng City of [E2] Guangzhou [/E2] , capital of Guangdong Province , had to suspend production because of the strike at the Japanese company [E1] Denso Corp [/E1] , the parts supplier , said Zhu Linjie , a Beijing - based spokesman for Honda .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] His [/E1] brother quipped that Bellecourt was selling land while [E2] he [/E2] was trying to reclaim land taken from American Indians years ago .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "( The state expunged the conviction from [E1] his [/E1] record in [E2] 1979 [/E2] , The Star Tribune of Minneapolisreported . )",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Sarkozy [/E2] , the country 's interior minister , would win 52 percent of the vote , with Royal garnering 48 percent , the Ipsos/Dell poll conducted for SFR and [E1] Le Point [/E1] magazine showed .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Spanish King [E2] Juan Carlos [/E2] and Queen Sofia , and Prince Albert of Monaco were among the state leaders in attendance at the cathedral , while Cuba 's Fidel Castro and [E1] Raul Castro [/E1] paid their respects through one of the growing number of flower arrangements that had arrived .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Olivia [/E1] 's impeccable taste won her the position of accessories editor at [E2] US Elle [/E2] - a role she clearly relishes in .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Defence minister [E1] Lee Jye [/E1] said the live-fire `` Han Kuang ( Han Glory ) [E2] 23 [/E2] '' manoeuvres would go on as scheduled .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Bellecourt is survived by [E1] his [/E1] wife , Carol Ann Bellecourt , from whom he was separated ; his companion , Janice Denny ; six children ; and [E2] seven [/E2] grandchildren .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Monday , Saudi permanent representative to the Arab League ( AL ) [E1] Ahmad Qattan [/E1] said here that he would head his country 's delegation to the summit , ruling out the presence of [E2] Saudi [/E2] King Abdullah or Foreign Minister Prince Saud al-Faisal .",
+    "gold_relation": "per:origin"
+}
+{
+    "sen": "[E1] American Bar Association [/E1] : [E2] http://wwwabanetorg [/E2] Among other findings , the ABA concluded that :",
+    "gold_relation": "org:website"
+}
+{
+    "sen": "A Washington Post obituary mentions that [E1] Bellecourt [/E1] had met with [E2] President [/E2] Chavez one month ago to discuss Venezuela 's subsidized heating oil program on Native American reserves in the US , which began in fall 2006 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "As a substantial shareholder in [E1] CNAC [/E1] 's subsidiary Air China , Cathay Pacific said [E2] late Monday [/E2] it would give serious consideration to joining CNAC and form a strategic partnership with China Eastern .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "But during Epstein 's introduction here , there were some boos at the mention of the [E1] Red Sox [/E1] ' [E2] 2004 [/E2] and 2007 titles .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Two other Boston firms , giant [E1] Fidelity Investments [/E1] and Highfields Capital Management , were [E2] Clear Channel [/E2] 's most aggressive public investors .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Covidien [/E1] has about 2,000 employees in [E2] Massachusetts [/E2] and 42,000 worldwide .",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "Boyle was rushed to a London health clinic suffering from exhaustion after [E1] she [/E1] was defeated in the final of the television talent show in [E2] June [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In the streamlining movement , Ho ordered that [E2] 1,600 [/E2] workers be laid off in a two-week period at the start of this month , [E1] Chunghwa Telecom Workers ' Union [/E1] Secretary-General Chuang Ping - tang said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "\u00d8 The [E2] Jewish National Fund [/E2] ( [E1] JNF [/E1] ) is a multi-national corporation with",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "Survivors include five children , Sharon Gude of Rockville , Adrienne Gude of D.C. , Gilbert Gude Jr. and [E1] Gregory Gude [/E1] , both of Bethesda , and Daniel Gude of Cabin John , Md. ; a brother , Rear Adm. William Callaghan of Rockville ; her stepmother , Sarah Callaghan of [E2] Chevy Chase [/E2] ; and three grandchildren .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "A couple of kilometers ( miles ) away from the [E1] UNC [/E1] rally , [E2] Manning [/E2] predicted that opposition candidates would be soundly defeated in the election , when a total of 41 parliamentary seats will be contested and the party that wins a majority picks the country 's prime minister .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Revolutionary Struggle [/E2] used that type of explosive in a bomb attack on Athen 's stock exchange last September that injured a passerby , and a failed carbomb attack on a [E1] Citibank [/E1] branch in February .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "As attorney general , [E1] Flowers [/E1] took over from local prosecutors in 1965 in the slaying of Viola Liuzzo , a white civil rights worker from Detroit who was killed by gunshots from a car of Ku Klux Klan nightriders as she transported protesters after the Selma - to-Montgomery voting rights [E2] march [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "After the six policemen were seized , militants blew up the building they were based in near Khar , Bajur 's main town , said Maj [E1] Mamoor Khan [/E1] , an official with [E2] Levies [/E2] , which is responsible for security in the area .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "[E1] Bellecourt [/E1] was born WaBun-Inini , meaning [E2] Man of Dawn [/E2] in Ojibwa , on Oct. 17 , 1931 , on the White Earth reservation in Minnesota .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Friends close to the [E2] model [/E2] fear that [E1] she [/E1] is moving heavily into the party scene - and that it could ruin her career .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "A chief architect of the tax plan , [E1] Al Hubbard [/E1] , director of the [E2] National Economic Council [/E2] , said , `` We realize that the ultimate legislation is not going to look exactly as the president proposed and that there 's going to be compromise on both sides . ''",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "[E2] Taiwan [/E2] will not rule out the possibility of holding negotiations with China on political issues , Mainland Affairs Council ( [E1] MAC [/E1] ) Chairwoman Lai Shin-yuan said Thursday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` With the wisdom of hindsight , I do n't think it helped us at all , '' [E2] Abbott [/E2] , who is now an opposition lawmaker , told the [E1] ABC [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Washington [/E2] , for example , is ranked as one of the most expensive tourist destinations with an average price of $ 352 ( euro227 ) a day for a family of four , according to [E1] AAA [/E1] figures .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Scientists at Israeli universities such as Bar Ilan University , [E2] Ben Gurion University [/E2] , [E1] Haifa University [/E1] , Hebrew University , The Technion -- Israel Institute of Technology , Tel Aviv University and the Weizmann Institute of Science are pioneers in areas such as stem cell-based tissue engineering , nanotechnology , high-resolution electron microscopy , and solar energy .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` You do not want to be caught in that air , '' said Dr. Kenneth Rundell , the director of the Human Performance Laboratory at [E1] Marywood University [/E1] in [E2] Scranton [/E2] , Pa. .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "National Police Chief Gen. [E2] Bambang Hendarso Danuri [/E2] said that armed militants on the run in the remote mountains of Aceh are part of the Jemaah Islamiyah regional terrorist network , the [E1] Jakarta Globe [/E1] reported on Wednesday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The American backing of the Supreme Council comes in part because its armed wing , called the [E1] Badr Organization [/E1] , has never confronted [E2] U.S. [/E2] troops .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Orders for transistors , capacitors and other basic elements that [E1] Alcatel-Lucent [/E1] needs to build its networks have surged , said [E2] Ben Verwaayen [/E2] , the chief executive , as other industries , like auto makers and consumer electronics makers , have also ratcheted up production .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "In a recent interview with DJ Booth , Canadian vocalist [E1] Melanie Fiona [/E1] talked about working with songwriter Andrea Martin on her upcoming debut album , `` The Bridge '' , and here 's what [E2] she [/E2] had to say : - `` Andrea Martin is one of the most talented people I 've ever met .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "John Fox was one of two young men on trial for their roles in the assault one year ago on [E1] Michael Sandy [/E1] , who was ambushed and chased into traffic during a [E2] mugging [/E2] at the edge of Sheepshead Bay .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Now [/E2] Magazine : [E1] Ezra Levant [/E1] and Jason Kenney the cause of anti-semitism ...",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Nobody was hurt or arrested during the standoff , said [E2] Theary Seng [/E2] , director of the Cambodian advocacy group Center for Social Development , which was working with [E1] Farrow [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "But Hollywood star [E1] Mia Farrow [/E1] -- who promised officials she would n't disrupt the torch -- was allowed into Hong Kong to give a speech [E2] Friday [/E2] urging China to pressure Sudan to stop killings in its western Darfur region .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Some news sources say that no live Nukes have been airborne since SAC ended the chromedome flights after that mess at Thule , but I find that hard to believe , since [E1] SAC [/E1] was at DEFCON3 over the [E2] '73 [/E2] war when the Soviets were making noises about supporting the Syrians , and there was another when Nixon was trying to make a point , Operation Lance , or something like that , where B-52s were back on the racetrack pattern at Failsafe point",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Qatar , as the mediator in the talks between the Sudanese government and the region 's rebel groups , and African Union - United Nations chief mediator Djibril Bassole extended invitations to the Sudanese government and Darfur 's two main groups , the Justice and Equality Movement ( [E1] JEM [/E1] ) and the Liberation and Justice Movement ( LJM ) , Minister of State for Foreign Affairs [E2] Ahmed bin Abdullah al - Mahmoud [/E2] told a press conference in Doha .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Overcome '' boasts additional contributions from Future Cut ( Shakira , Lily Allen ) , Makeba Riddick ( Rihanna , Christina Milian ) , Nadir `` RedOne '' Khayat ( Enrique Iglesias , Livvi Franc ) , James Fauntleroy ( Beyonce , Keri Hilson ) , Soulshock & Karlin ( Leona Lewis , Pixie Lott ) and [E2] Andrea Martin [/E2] ( Toni Braxton , [E1] Melanie Fiona [/E1] ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Ayatollah Khamenei [/E1] then turned to justice as another eminent feature of the [E2] Ninth Administration [/E2] , adding that the rough path of justice would never bear fruits in the short run nevertheless any step the Administration takes in this path is of great value and must continue with utmost power .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Smith did not call [E2] 911 [/E2] or express shock or sympathy , [E1] he [/E1] said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "They are not bound to the skin in the same way that other skin cells are , so that when they turn cancerous , they find it very easy to invade a blood vessel or lymph channel and travel to other parts of the body , said Dr. [E2] David Peng [/E2] , director of the Pigmented Lesion Clinic at [E1] Norris Comprehensive Cancer Center [/E1] at the University of Southern California .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "The former paratroop commander has repeatedly rejected the [E1] IAPA [/E1] 's criticisms in the past , calling the organization a pawn of the `` empire , '' a reference to the [E2] U.S. [/E2] government .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Gibson was taken to jail and charged with dangerous use [E2] explosives [/E2] and making bomb threats , [E1] he [/E1] said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "While Juventus still holds the record with 27 Serie A titles , it has not officially won the `` scudetto '' since [E2] 2002-03 [/E2] , when [E1] Ferrara [/E1] was winding down an 11-year stint as a defender for the Bianconeri .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Industry representatives , including people from [E1] Royal Caribbean [/E1] and Carnival , say they testified honestly before [E2] Congress [/E2] , reporting the most serious sex crimes , using federal laws as a guide .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Madonna [/E2] made [E1] her [/E1] British stage debut there in 1984 ; that year Mr. Wilson also signed one of Factory 's biggest bands , Happy Mondays , after it came in last place in a battle of the bands contest at the Hacienda .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "When he takes office , Obama will lift a freeze on funding for global family planning programs imposed by the outgoing Bush administration , Democratic [E2] lawmaker [E1] [/E2] Carolyn Maloney [/E1] told reporters .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Swedish steel company SSAB offers US$ 77 billion for [E1] IPSCO [/E1] Swedish steel company SSAB Svenskt Stal AB said Thursday it had made a US$ 77 billion ( euro5 67 billion ) offer for Canadian steel products maker [E2] IPSCO Inc [/E2] .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "On the same day , US President George W. Bush announced the appointment of a [E2] US [/E2] envoy to the Organization of Islamic Conference ( [E1] OIC [/E1] ) , an inter-governmental umbrella group of 57 Muslim nations , `` to listen to and learn from '' Muslim states and `` share with them America 's views and values . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "No sooner had the Senate Banking Committee [E2] Chairman [/E2] Chris Dodd announced [E1] his [/E1] plan to overhaul financial regulation Tuesday than compensation experts declared it toothless .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "The losses occurred through Tufts 's stake in Ascot Partners , which invested the sum with [E1] Madoff Securities [/E1] , school president [E2] Lawrence Bacow [/E2] wrote in a letter e-mailed to the university community Friday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "It was the same problem [E1] John Kerry [/E1] had , but Kerry learned to keep his answers short in the debates with our dictator in [E2] 2004 [/E2] . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "U.S. [E2] Rep. [E1] [/E2] Parren Mitchell [/E1] , founding member of Congressional Black Caucus , dies at 85",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "[E1] She [/E1] lived out of the spotlight for decades after the case , earning a university degree in 1985 at age 68 , and lived most of her life in [E2] New York [/E2] state .",
+    "gold_relation": "per:stateorprovinces_of_residence"
+}
+{
+    "sen": "Regarding the proposed Hong Kong office , [E2] Lai [/E2] said `` the [E1] MAC [/E1] will see what kind of office it would be , '' since the MAC has allocated NT$ 10 million to establish a Taiwan-Hong Kong Economic and Cultural Cooperation Promotion Committee in accordance with consensus reached between the two sides .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "This is a business-to-business negotiation with the backing of each government , '' [E2] Hidayat [/E2] was quoted by the [E1] Jakarta Globe [/E1] as saying .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] George Young [/E1] drafted [E2] Derek Brown [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In what may have been the most public display of gushingly romantic affection between two gay or lesbian celebrities , [E1] Ellen DeGeneres [/E1] and Portia de Rossi professed their love in the secular chapel of Oprah Winfrey 's daytime talk show on [E2] Monday [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Chu signed a letter of intent for future cooperation with the Industrial Development Bureau under the Ministry of Economic Affairs , [E1] Chunghwa Telecom [/E1] and [E2] Global Mobile Corp. [/E2] on the provision of wireless broadband service in Taoyuan County .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Meanwhile , MTV News [E2] recently [/E2] dished some pointers to achieve a stylish coif like [E1] Olivia [/E1] 's .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Tokyo Stock Exchange [/E1] 's benchmark Nikkei-225 index dropped 352.92 points or 2.09 percent to [E2] 16,517.48 [/E2] , reflecting sharp falls across Asia .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In Indianapolis , [E2] Rep. [E1] [/E2] Andre Carson [/E1] , a Democrat who won a special election in March to succeed his grandmother , the late Julia Carson , has serious challengers for his seat in the 7th Congressional District .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "The membership of [E1] Lashkar-e-Taiba [/E1] extends to [E2] about 150,000 [/E2] people , according to a midlevel officer in Pakistan 's premier spy agency , the Directorate for Inter-Services Intelligence .",
+    "gold_relation": "org:number_of_employees/members"
+}
+{
+    "sen": "After the Greece debt crisis , the EU put together with the [E1] International Monetary Fund [/E1] ( [E2] IMF [/E2] ) a 750-billion-euro rescue fund to bail out countries that may fall prey to the debt crisis .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "A spokesman for the foreign ministry of the [E2] Democratic People 's Republic of Korea [/E2] ( DPRK ) said Saturday the DPRK was ready for resumption of the six-party talks , official news agency [E1] KCNA [/E1] reported .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Many other members of Fellsdog group and I are spreading the good news about the [E1] DCR [/E1] proposed off-leash dog park location to dog owners , not members of this site but frequent [E2] Sheepfold [/E2] vistors with their dogs .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] She [/E2] was also romantically linked to another leading actor , Warren Beatty , with whom [E1] she [/E1] starred in the 1990 adventure `` Dick Tracy . ''",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "* The Dirty Dozen ( 1967 ) : Lee Marvin , Charles Bronson , [E2] Jim Brown [/E2] , John Cassavettes , Richard Jaeckel , Ernest Borgnine , [E1] George Kennedy [/E1] , Trini Lopez , Ralph Meeker , Robert Ryan , Telly Savalas , Donald Sutherland , Clint Walker , Robert Webber ( Robert Aldrich ) This one 's been a fave of mine since the '70s .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The US State Department 's number three , [E1] Nicholas Burns [/E1] , and the assistant secretary of state for South Asian affairs , [E2] Richard Boucher [/E2] , have consulted allies including Britain , Canada , France and Russia , said spokesman Tom Casey .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "After several day 's delay due to technical issues , a Delta 4 rocket has rumbled into the sky from the [E1] Kennedy Space Center [/E1] at [E2] Cape Canaveral [/E2] carrying a GPS satellite .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Thursday , in an interview with the [E2] American [/E2] magazine Newsweek , [E1] Larijani [/E1] also asked what the Security Council resolutions had achieved .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Scores of politicians , business executives and economic development officials ranging from Georgia Gov. Sonny Perdue to [E1] Metro Atlanta Chamber of Commerce [/E1] President Sam Williams had lobbied on Delta 's behalf , arguing that access to [E2] China [/E2] would boost exporters in the Southeast and draw Chinese businesses to open facilities in the region .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Royal Caribbean International [/E1] , the world 's largest global cruise brand operating 21 cruise ships , will sail into Hong Kong early next year , Adam Goldstein , president of [E2] Royal Caribbean International [/E2] , announced here Thursday .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "[E1] He [/E1] added that [E2] he [/E2] never discussed Nabors ' tax issue with either the congressman or Isenberg .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The [E2] Central Committee [/E2] of the Communist Party of China ( [E1] CPC [/E1] ) on Wednesday sent a message to congratulate the Communist Party of Vietnam ( CPV ) on its 80th founding anniversary .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "[E1] Huber [/E1] has served as deputy leader of the union , which has 2.3 million members , for the [E2] last four years [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "After Nigerian Archbishop Peter Akinola set up the [E1] Convocation of Anglicans in North America [/E1] in [E2] 2005 [/E2] , some US liberals accused African archbishops of breaching protocol by trying to create rival churches on their territory .",
+    "gold_relation": "org:founded"
+}
+{
+    "sen": "Yoshida made her debut for the [E2] Chico Outlaws [/E2] of the independent [E1] Golden League [/E1] on Saturday night , the first appearance by a woman in American professional baseball since Ila Borders in 2000 .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "Survivors include her husband , Keith Thomson , whom she married in 2003 , of Alexandria and Kirkland , Wash. ; two sons from her first marriage , Bryant Dunn of [E2] Ketchum [/E2] , Idaho , and [E1] Reagan Dunn [/E1] of Maple Valley , Wash. ; a stepson , Angus Thomson of San Francisco ; a brother ; and two granddaughters .",
+    "gold_relation": "per:siblings"
+}
+{
+    "sen": "Through the institute , which she moved to [E2] CUNY [/E2] last year when she joined its faculty , [E1] she [/E1] published the monthly Arms Control Reporter , widely read in defense and disarmament circles for its updates on arms control negotiations .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "The Cuban-American clan has vast holdings in South [E2] Florida [/E2] and spent decades building the fortune in the rum and sugar business , and when Pancho , the head of the family ( Hector Elizondo ) , is offered a lucrative offer to sell to their rivals , the Samuels , [E1] he [/E1] takes it seriously .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Obama and [E2] his [/E2] allies however have touted Sotomayor 's decades-long legal career , past support from hard-line Republicans and her `` well qualified '' rating from the [E1] American Bar Association [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E2] spokesman [/E2] said he had no immediate information on a funeral service or on who would replace [E1] Yoadimnadji [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "com Author and Publisher , LdrLongDistanceRider.com Co-Moderator , Bruce-n-RC 's Biker Forum Mile Eater Gold Member , Iron Butt Association ( IBA ) Sustaining Member , Motorcycle Riders Foundation ( [E2] MRF [/E2] ) 2009 Chairman 's Circle , [E1] American Motorcyclist Association [/E1] ( AMA )",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The feud began in the fall , when retired Pinellas Circuit Judge Crockett Farnell , at [E1] Dillinger [/E1] 's urging , threatened to jail and fine Hadi for ignoring orders to find space in one of the [E2] three [/E2] state mental hospitals for inmates who had been declared incompetent to stand trial .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Ex-trade minister to head [E2] Brazil [/E2] food maker [E1] Sadia",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "[E1] Oxford University Press [/E1] 198 Madison Avenue , New York , NY 10016-4314 [E2] 9780195342840 [/E2] , $ 40.00 , www ( dot ) oup ( dot ) com/us",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] He [/E2] reconnected with his Russian-Jewish heritage in '' Fiddler on the Roof `` and the ballet '' Dybbuk , `` and he also lived openly as a homosexual -- although , like Alvin Ailey and a number of other master choreographers , [E1] he [/E1] never overtly expressed that part of his nature in his dances .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The order follows an incident in [E2] July [/E2] in which a 30-centimeter ( 12-inch ) diameter hole in the fuselage of a Southwest Airlines plane led to a loss of cabin pressure , requiring the plane to be `` diverted to an alternate airport due to cabin depressurization and subsequent deployment of the oxygen masks , '' an [E1] FAA [/E1] statement said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In 1958 , after practicing law in New Britain , [E1] he [/E1] ran for the [E2] State Senate [/E2] and lost in a landslide .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "But its survival rests on more than [E1] Fuller [/E1] , [E2] Sonnenfeld [/E2] and the rest of the producers ' ability to maintain the premiere 's sparkle .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Kim Jong Il , top leader of the Democratic People 's Republic of Korea ( DPRK ) , recently inspected [E2] two [/E2] factories and a restaurant here , official news agency [E1] KCNA [/E1] reported Saturday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Czech National Bank [/E1] will by the end of June draw up a detailed analysis of all the steps related to euro adoption , [E2] he [/E2] added .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In his talks with [E1] Negroponte [/E1] , Musharraf , who seized power in a [E2] 1999 [/E2] coup , repeated a pledge to resign as army chief before taking office for a second time as president .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Due to the atrocities of the [E1] Chinese Government [/E1] on the people of Tibet I feel very strongly that India should boycott the [E2] Beijing [/E2] Olympics .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` The name of [E1] Kollek [/E1] will remain forever a part of the Jerusalem scene , '' said [E2] Prime Minister [/E2] Ehud Olmert , who in 1993 defeated Kollek in his seventh bid for mayor .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Huber [/E1] , [E2] 57 [/E2] , is considered a reformer and a modernizer , based on his open style of communication and success at reaching unconventional solutions .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "The [E2] six [/E2] large cruise lines that sail predominantly in North America -- Carnival , Celebrity , Holland America , Norwegian , Princess , [E1] Royal Caribbean [/E1] -- plan to base 31 ships in Europe for part or all of 2009 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "She was the mother of [E1] Andrew Goodman [/E1] , one of the three young civil rights activists shot to death by rabid racists near Philadelphia , [E2] Miss. [/E2] , in 1964 .",
+    "gold_relation": "per:stateorprovince_of_death"
+}
+{
+    "sen": "In vetting McNair , who was notified [E2] he [/E2] was one of four finalists for Humphrey 's running mate , a top aide to Humphrey asked Holman if [E1] he [/E1] could support McNair .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Edgar Hertwich , a researcher at the [E1] Norwegian University of Science and Technology [/E1] in [E2] Trondheim [/E2] , agrees that the obsession with food miles can obscure more significant environmental impacts of our food .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "Not to mention the fact that Devin has had no [E1] ABA [/E1] whatsoever , yet , I do believe that if I were to bring her to an entirely new care provider and not share her history , she 'd likely receive a `` diagnosis '' of speech delay and nothing more ( this , assuming [E2] she [/E2] would be evaluated during a `` good '' day and that nothing would `` trigger '' her autistic behaviors ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "* Panel 2 * Carl Blake , National Legislative Director , [E1] Paralyzed Veterans of America [/E1] * Kerry Baker , Assistant National Legislative Director , Disabled American Veterans * Dennis M. Cullinan , Director , [E2] National Legislative Service [/E2] , Veterans of Foreign Wars of the United States * Raymond C. Kelley , National Legislative Director , American Veterans ( AMVETS )",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Expect hot collaborations with Bryan Michael Cox ( Brandy , Claudette Ortiz ) , Scott Storch ( Jojo , Silena Murrell ) , Johnathan Rotem ( LeToya , Eve ) , [E2] Kwame [/E2] ( Teairra Mari , Janet Jackson ) and Carvin & Ivan ( [E1] Chante Moore [/E1] , Faith Evans ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Mullah Radio was also seen threatening the [E1] Awami National Party [/E1] ( ANP ) , which is ruling the troubled northwest [E2] Khyber Pakhtunkhwa [/E2] province , as prime target of its suicide bombers cadre .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The White House on Sunday dismissed Senate plans to hold a no - confidence vote on the attorney general and said the outcome will not undermine [E2] President [/E2] George W. Bush 's resolve to keep [E1] Alberto Gonzales [/E1] at the Justice Department .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Russert , a onetime Democratic operative who died suddenly in June at age [E2] 58 [/E2] , turned `` Meet the Press '' into a test of wills , cross - examining guests and pressing them to resolve contradictions with their previous statements -- which [E1] he [/E1] would feature as video clips or on-screen graphics .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "[E2] Rove [/E2] seemed to assign blame for the prank on [E1] Al Hubbard [/E1] , chairman of Bush 's National Economic Council .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Fleischer [/E2] said that he decided to tell two reporters , NBC 's [E1] David Gregory [/E1] and Time magazine 's John Dickerson , as they were walking along a road in Uganda : `` If you want to know who sent the ambassador to Niger , it was his wife .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "U.S. [E2] Representative [E1] [/E2] Paul Gillmor [/E1] , who was found dead in his apartment in suburban Washington this week , died of blunt head and neck trauma consistent with a fall down stairs , according to a medical examiner 's report .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Major index gainers were ITC which rose 8.09 percent , Grasim Industries 6.52 percent , Dr Reddy 's Laboratories 3.67 percent , Mahindra and Mahindra 2.17 percent and Maruti Suzuki 1.69 percent while [E1] Hindalco Industries [/E1] fell 5.89 percent , Larsen and [E2] Toubro [/E2] 2 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "* Figures for [E1] FMF [/E1] and FMS come from `` Foreign Military Sales , Foreign Military Construction Sales and Military Assistance Facts , '' Published by the [E2] Defense Security Cooperation Agency [/E2] ( DSCA ) and online at http://www.fas.org/asmp/profiles/facts_book_2005.pdf .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Survivors include four sons , the Rev. Jefferson DeBlanc Jr. of Church Point , Louisiana , [E2] Richard DeBlanc [/E2] of Coteau Holmes , Louisiana , [E1] Frank DeBlanc [/E1] of St. Martinville and Michael DeBlanc of Parks , Louisiana ; a daughter , Barbara DeBlanc Romero of St. Martinville ; seven grandchildren ; and four great-grandchildren .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "I secured the help of a reputable professor and researcher at [E1] Ghent University [/E1] in [E2] Belgium [/E2] , Dr. Joris Delanghe .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "The campaigns had until midnight [E2] Sunday [/E2] to file full financial reports to the [E1] Federal Election Commission [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Defenders : [E1] Li Jie [/E1] ( C ) , Zhang Ying , Weng Xinzhi , Pu Wei , Liu Huana , [E2] Zhou Gaoping",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Asked Tuesday at a news conference if the IRS was investigating other parts of [E1] Jackson Hewitt [/E1] , Mark Everson , the IRS commissioner , said that `` what we 're talking about today speaks only to these five entities , '' referring to the [E2] five [/E2] corporations wholly or partly owned by Sohail that ran the more than 165 franchises .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "It was Phelps ' ninth Olympic gold overall , allowing him to join an elite club with U.S. swimming great Mark Spitz , American track and field star [E2] Carl Lewis [/E2] , former Soviet gymnast Larissa Latynina and Finnish runner [E1] Paavo Nurmi [/E1] for the most gold medals all-time at the Games .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Skills ( IS-U/CCS/CRM team ) : - * Should be able to set up and make changes to billing schemas in the ISU system based on requirements * Make FICA Configurations in ISU * Make configurations related to [E2] Customer Service [/E2] in [E1] ISU [/E1] * Have a good working knowledge of basic master data configuration for business partners and technical objects * Must have worked in a utility environment ( preferably deregulated markets in the U.S. ) * Quick Learner",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "Production credits are handled by : - [E2] Scott Storch [/E2] ( Janet Jackson , Mariah Carey ) , The Neptunes ( Beyonce , Kelis ) , Rich Harrison ( Amerie , Kelly Rowland ) , Jermaine Dupri ( Donell Jones , Avant ) , Bryan Michael Cox ( Faith Evans , Mary J. Blige ) and Jimmy Jam & Terry Lewis ( Usher , [E1] Chante Moore [/E1] ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Appliance and electronics giant Grupo Elektra and Beijing-based [E2] First Automobile Works Group [/E2] ( [E1] FAW [/E1] ) are scheduled to hold a groundbreaking in the state of Michoacan on Friday , where the companies will detail their plans to build and finance low-cost cars aimed at Mexico 's emerging middle class .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "The [E2] three [/E2] previous U.S. envoys -- Khalilzad , Director of National Intelligence [E1] John Negroponte [/E1] and Coalition Provisional Authority chief Paul Bremer -- had all been political appointees who had a direct line into the White House .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Forgeard , former joint chief executive at EADS which owns [E2] Airbus [/E2] , told the magazine [E1] Le Point [/E1] : `` Airbus did not report any unrecoverable delay before the middle of April 2006 , and at that time the financial consequences were very limited . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` [E2] She [/E2] 's being very strong and holding to her own morals and I 'm very proud of her , '' said [E1] Holly [/E1] , also on `` The Hills , '' at Playboy 's party on Saturday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Atlanta Chamber of Commerce [/E1] President Sam Williams and economic development Senior Vice President [E2] Hans Gant [/E2] have been here promoting present and potential business exchange between Atlanta and China .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "However , DCC later confirmed that Flavin 's departure would not end scrutiny of the company 's [E2] 1990s [/E2] investment in [E1] Fyffes [/E1] shares and their February 2000 selloff .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The benchmark Nikkei [E2] 225 [/E2] stock index slipped 12.99 points , or 0.07 percent , to finish at 17,656.84 points on the [E1] Tokyo Stock Exchange [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` We believe that it is in the best interest of the state , the citizens of [E2] Utah [/E2] and EnergySolutions to settle this matter and we hope the state considers this proposal , '' [E1] EnergySolutions [/E1] spokesman Mark Walker wrote in an e-mail to The Associated Press .",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "Virginia Republican [E1] Jo Ann Davis [/E1] passed away on Saturday at the age of [E2] 57 [/E2] .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "A US appeals court on Friday threw out a damages award of 358 million dollars against [E2] Microsoft [/E2] in a patent infringement case filed by French telecom firm [E1] Alcatel-Lucent [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Some 30,000 people turned out in Berlin on September 11 , 1926 to see [E2] him [/E2] pull off a thrilling shock win over the Finnish running legend of the time [E1] Paavo Nurmi [/E1] and Swedish long distance specialist Edvin Wide .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Livni is also due to travel to [E2] Boston [/E2] to address a special session of the [E1] Massachusetts House of Representatives [/E1] to mark the 60th anniversary of the creation of Israel later this year .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "In related news , Soulshock & Karlin are also working on the next projects by Whitney Houston -LSB- J Records -RSB- , [E2] Toni Braxton [/E2] -LSB- Atlantic Records -RSB- , Solange Knowles -LSB- Geffen Records -RSB- , Monica -LSB- J Records -RSB- , Estelle Swaray -LSB- Atlantic Records -RSB- , [E1] Alexandra Burke [/E1] -LSB- Epic Records -RSB- , Jessica Jarrell -LSB- Def Jam Records -RSB- and Priscilla Renea -LSB- Capitol Records -RSB- .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` If they exclude ( the [E2] English [/E2] counties ) , I would n't be at all surprised to see another rival tournament spring up somewhere else in the world , '' [E1] Kennedy [/E1] said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Monday , Saudi permanent representative to the Arab League ( AL ) Ahmad Qattan said here that [E1] he [/E1] would head his country 's delegation to the summit , ruling out the presence of Saudi King Abdullah or Foreign [E2] Minister [/E2] Prince Saud al-Faisal .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Leach 's death on June 3 prompted city officials to begin removing children from Chad , but eight still remain there , a city official told The [E1] Philadelphia Inquirer [/E1] on [E2] Tuesday [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Paul Sculfor is a model and known reject of [E2] Jennifer Aniston [/E2] 's , and when [E1] he [/E1] was on the West Coast visiting Jennifer , he stayed in hotels frequently , but Cameron wants to take it to the next level .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Members of the group include high-ranking executives of more than 10 companies in the information technology sector , such as [E1] Chunghwa Telecom Co. [/E1] , Tatung Co. and [E2] Syscom Computer Engineering Co. [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The leader , Hafiz Muhammad Saeed , whose [E2] Muslim [/E2] charity , Jamaat-ud-Dawa , fronts for the banned militant group [E1] Lashkar-e-Taiba [/E1] , was informed late Sunday night that he was not to move from his house in Lahore , said Chaudry Muhammed Shafiq , the city 's senior police superintendent .",
+    "gold_relation": "org:political/religious_affiliation"
+}
+{
+    "sen": "The [E2] Vatican [/E2] 's No. 2 official expressed the Roman Catholic Church 's concern about prisoners in Cuba during a meeting with President [E1] Raul Castro [/E1] , but stopped short of asking the communist government to free inmates .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "This site says that `` a woman claiming to be one of [E1] Pavelka [/E1] 's ex-girlfriend 's said that [E2] 32-year-old [/E2] Jake left their relationship `` on hold '' before leaving to film `` The Bachelor . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] She [/E1] and professional partner Tony Dovolani came into [E2] Tuesday [/E2] 's results show with the week 's lowest score : 15 points out of 30 for a lackluster foxtrot .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "com Author and Publisher , LdrLongDistanceRider.com Co-Moderator , Bruce-n-RC 's Biker Forum Mile Eater Gold Member , [E2] Iron Butt Association [/E2] ( IBA ) Sustaining Member , Motorcycle Riders Foundation ( MRF ) 2009 Chairman 's Circle , American Motorcyclist Association ( [E1] AMA [/E1] )",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "To solidify Israel 's hold over the eastern sector of the city , [E1] Kollek [/E1] presided over the construction of nine [E2] Jewish [/E2] neighborhoods , moving 160,000 Jews into the area .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The shuttle landed on schedule at 1:00 pm ( 1800 GMT ) at the [E1] Kennedy Space Center [/E1] in [E2] Florida [/E2] after its ambitious mission to the International Space Station .",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "Energy demand in Cambodia will grow 3.7 percent per year from [E2] 2005 [/E2] to 2030 , outpacing the regional average of 2.4 percent , local media reported on Friday , citing a new report by the [E1] Asian Development Bank [/E1] ( ADB ) and the Asia-Pacific Economic Cooperation ( APEC ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Survivors include [E1] her [/E1] husband , Chuck , [E2] two [/E2] sons and a granddaughter .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Reality TV stars [E1] Spencer Pratt [/E1] and Heidi Montag ( she has reportedly dropped her married name ) , who were married in April 2009 , look like Ken and [E2] Barbie [/E2] with their matching light locks and blue eyes .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Before the Minuteman Project began , [E2] Gilchrist [/E2] and [E1] Simcox [/E1] repeatedly claimed they had recruited more than 1,300 volunteers .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] He [/E2] said [E1] his [/E1] decision-making is based on his constituents ' needs .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The WWE canceled its live `` Monday Night RAW '' card in Corpus Christi , Texas , and [E1] USA Network [/E1] aired a three-hour tribute to [E2] Benoit [/E2] in place of the scheduled wrestling telecast .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E2] current [/E2] campaign has several elements in it that were not seen as frequently in the old [E1] AMA [/E1] campaign .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "All our big venture firms have positions in the state 's IPO candidates , including Polaris , [E2] Matrix Partners [/E2] , Charles River Ventures , [E1] Highland Capital Partners [/E1] , and Battery Ventures .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] ConAgra [/E1] continues to follow the trend set by the other large food and consumer products companies , namely General Mills ( NYSE : GIS ) , Kellogg ( NYSE : K ) , Procter & Gamble ( [E2] NYSE [/E2] : PG ) and Campbell Soup ( NYSE : CPB ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Federal Motor Carrier Safety Administration [/E1] on [E2] Aug. 4 [/E2] announced plans to extend the test period another two years .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Dad never really talked much about [E1] his [/E1] experiences in the war , and [E2] he [/E2] never considered himself a hero , '' said Kempfer .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The gauntlet begins [E2] Sunday [/E2] against the Packers at Lambeau Field , followed by the visiting Colts , host [E1] Jaguars [/E1] and visiting Chargers .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Carson says his faith does n't drive his stands on issues , other than instilling the values that have shaped [E2] his [/E2] life and led [E1] him [/E1] to public service .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E2] Tyr Energy [/E2] , a US unit of [E1] Itochu [/E1] , has become the sole owner of the 315-megawatt gas-turbine Commonwealth Chesapeake Power Station , which supplies power to 300,000 households , the Japanese parent firm said in a statement .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "Sen [E1] Barbara Boxer [/E1] , D-Calif , the chair of the [E2] Senate Environment and Public Works Committee [/E2] , hailed Warner 's announcement as a groundbreaking move that could convince other Republicans to support a climate change bill .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Or who have studied formalism at the [E1] Barnes Foundation [/E1] art museum outside of [E2] Philadelphia [/E2] .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "As one of the first close associates of Osama bin Laden to be caught after the 9/11 attacks , [E1] Zubaydah [/E1] became a test case on which the [E2] CIA [/E2] built and then adjusted its program of aggressive interrogations and overseas secret jails in the years that followed .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Asked if [E2] Putin [/E2] 's [E1] KGB [/E1] training bothered him , he replied : `` So what if he was in the KGB ?",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Conditions in the parts of the economy that produce goods and services are stable , '' union chairman [E1] Berthold Huber [/E1] told the [E2] Thursday [/E2] issue of the daily Frankfurter Allgemeine Zeitung .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "South African President Thabo Mbeki decided to disband an elite crime-fighting unit against an official recommendation to keep it operating , documents released Monday saidA 144-page report compiled after a 2006 inquiry into the [E2] Directorate of Special Operatioins [/E2] , or [E1] Scorpions [/E1] , was made public Monday and found the existence of the FBI-style unit was `` as valid today as it was at conception '' .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "In 1954 , Margaret Young was named a professor of educational psychology at [E1] Spelman College [/E1] in Atlanta , and in [E2] 1971 [/E2] , after her husband 's drowning death in Lagos , Nigeria , she became executive director of the Whitney M. Young Jr. .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "At an Asian security conference in the Philippines , South Korean Foreign Minister Song Min-soon and [E2] U.S. [/E2] Deputy Secretary of State [E1] John Negroponte [/E1] agreed to place top priority on safely freeing the hostages , ruling out a military option for ending the standoff , a South Korean official said Thursday .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Artina Shumpert , of Peru , Ind. , a steelworker who rejoined the NAACP to fight discrimination in her small town , said she was inspired by [E2] Bond [/E2] 's remarks , particularly [E1] his [/E1] words about the devastation of Katrina and the government 's inadequate response .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E1] Scheider [/E1] 's acting career spanned five decades and included [E2] two [/E2] Oscar nominations for his performances in 1971 's crime thriller `` The French Connection '' and 1979 's `` All That Jazz . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Asian Development Bank [/E1] on Thursday said it expected to offer [E2] Pakistan [/E2] a $ 2 billion emergency loan for help repairing roads , bridges and other infrastructure damaged by the record flooding in the country .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Malaysia 's New Straits Times newspaper and national news agency , [E1] Bernama [/E1] , identified the pilot who was killed as William Charles Scott , 51 , from Meridian , Mississippi , and the other man as David William Bergin , 49 , from Bend , [E2] Oregon [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Talks between them have already begun quietly , as some militant groups and their supporters send messages and emissaries to the newly elected parties , said [E2] Afrasiab Khattak [/E2] , [E1] ANP [/E1] 's secretary - general here .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": ".100 USD Samsung SGH-S500 ... 100 USD Samsung SGH-V200 ... 110 USD [E1] Samsung [/E1] SGH-X400 ... 100 USD Samsung SGH-X430 ... [E2] 100 [/E2] USD Samsung SGH-X600 ... 100 USD Samsung X450 ... 100 USD",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "His visibility has increased substantially since the murder in [E2] London [/E2] last November of Alexander Litvinenko , an exiled former [E1] KGB [/E1] agent who also was a harsh critic of Putin .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "When the 35-year-old ringleader was arrested Wednesday , Morgenthau said , police found 296 fake credit cards , $ 200,000 ( nearly euro150 [E2] ,000 [/E2] ) in cash , numerous Rolex watches and expensive handbags in [E1] his [/E1] Brooklyn home .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The track was helmed was co-written by Ina Wroldsen ( Kylie Minogue , Leona Lewis ) , Lucas Secon ( Jordin Sparks , Britney Spears ) , and produced by Jonas Jeberg & Cutfather ( [E2] Kelly Rowland [/E2] , [E1] Alexandra Burke [/E1] ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The lawyer said the tour would begin in Paris on Dec. 31 and take [E1] Remy Ma [/E1] to Antwerp , Belgium ; Oslo , Norway ; Copenhagen , Denmark , and finally [E2] Stockholm [/E2] , Sweden , on Jan. 5 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Irish government said on [E2] Sunday [/E2] afternoon that talks with the European Union ( EU ) and the International Monetary Fund ( [E1] IMF [/E1] ) over a bailout package have concluded .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` After studying the [E2] current [/E2] situation , the government realizes that it is essential to eliminate parallel taxation and readjust formal taxation , taking into account the commitments that have been made by the Republic of Congo in negotiations with the World Bank and the [E1] International Monetary Fund [/E1] , '' sources said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "North Korea was `` fully ready for any form of high-tech war , '' a spokesman for country 's Committee for the [E2] Peaceful Reunification of Korea [/E2] said in remarks carried by the official [E1] Korean Central News Agency [/E1] on June 27 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Alcatel-Lucent [/E1] maintained its outlook for [E2] the full year [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In Jamaica , officials alerted shelters to prepare for possible evacuations Wednesday , and [E1] Carnival Cruise Lines [/E1] diverted one of its ships from Montego Bay , Jamaica , to a Mexican port , company spokesman [E2] Vance Gulliksen [/E2] said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "President Bush made no attempt to change longtime friend [E1] Alberto Gonzales [/E1] ' mind when the U.S. attorney general from Houston decided late last week to finally step down after [E2] months [/E2] of bruising investigations by Congress .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Flowers [/E1] , who contended politics was behind the extortion investigation , was sentenced to eight years in prison and served about 1 1/2 years before [E2] he [/E2] was paroled .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Yu Keli , director of the [E1] Taiwan Research Institute [/E1] under the China Academy of Social Science ( CASS ) in Beijing , said that the `` one China '' principle was a guideline jointly ironed out by the KMT and the Communist Party of China to prevent the separation of Taiwan from `` its homeland '' , and he was somehow surprised that `` some [E2] KMT [/E2] friends until now expressed different opinions about that . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Separately , Sens. Max Baucus , D-Mont. , and [E1] Chris Dodd [/E1] , [E2] D-Conn. [/E2] , were scheduled to meet with Obama on Thursday at the White House to discuss the way forward in their chamber .",
+    "gold_relation": "per:stateorprovinces_of_residence"
+}
+{
+    "sen": "After a tumultuous and seemingly neverending romance with DJ Samantha Ronson , the 23-year-old one-time actress has reportedly hooked up with Gucci model [E1] Adam Senn [/E1] -- and she introduced him to her family [E2] last Tuesday [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Kostner , competing in her first international event this season after missing the [E1] ISU [/E1] Grand Prix series due to torn ligaments , achieved 60.46 with Georgian [E2] Elene Gedevanishvili [/E2] , 17 , sitting third with 54.62 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "When [E1] she [/E1] resigned in [E2] December 1978 [/E2] because she had reached the mandatory retirement age of 70 , she complained , `` They 're kicking me out . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The agreements , signed by Malaysian Defense Ministry and related agencies , included eight contracts , five memorandums of understanding ( MoUs ) , three letters of acceptance ( LOAs ) and [E2] four [/E2] letters of intent ( LOIs ) , state media [E1] Bernama [/E1] reported .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Wenger 's comments came after [E1] Arsenal [/E1] chairman [E2] Peter Hill-Wood [/E2] assured the manager and the supporters that the club wants him to stay in charge beyond 2008 .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "[E1] Chavez [/E1] 's assuaging words -- `` do n't be sad , '' he told supporters -- did n't stop Nelly Hernandez , a 37-year-old street vendor , from crying as she wandered outside the presidential palace [E2] early Monday [/E2] amid broken beer bottles as government workers took apart a stage mounted earlier for a victory fete .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Apparently , Maloney took offense that Obama did not deem her a serious enough candidate to directly phone [E2] her [/E2] himself , as [E1] he [/E1] did in the case of Israel , according to the Maloney associate who spoke on condition of anonymity .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Ventura County , California prosecutors have declared that the [E2] shooting [/E2] of Lawrence King by 14 year-old [E1] Brandon McInerney [/E1] ( left ) was a premeditated hate crime .",
+    "gold_relation": "per:charges"
+}
+{
+    "sen": "Udall cited the cordial ties between [E2] two [/E2] Arizonans , his late liberal father , Rep. Mo Udall and [E1] Goldwater [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Buchwald said in numerous interviews that after it became public that [E1] he [/E1] was not afraid to die , he was not depressed about his fate and that he was , in fact , having the time of [E2] his [/E2] life .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The fair , held at the Dominican School in Taipei , was the first of its kind organized outside the Philippines by the [E2] Manila Economic and Cultural Office [/E2] ( [E1] MECO [/E1] ) and the Pag-IBIG Fund .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "[E2] Argentina [/E2] on Thursday announced it had regained control of the national flagship carrier [E1] Aerolineas Argentinas [/E1] after signing a deal with a major stakeholder , the Spanish group Marsans .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "She celebrates the lives of her parents and the great Black Women of Bennetsville , South Carolina - Miz Tee , Miz Lucy , Miz Kate-who gave her love and guidance in her youth , as well as the many teachers and figures who inspired her education at [E1] Spelman College [/E1] and empowered [E2] her [/E2] early as an activist in the 1960 's .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] McAllister [/E1] said no major policy decisions are pending , her staff is compiling next year 's budget requests and she is in daily communication by phone and e-mail with [E2] her [/E2] chief of staff .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Figures released [E2] Monday [/E2] show that 428 people were discharged from the Army , Navy , Air Force and Marines last year for violating the `` do n't ask , do n't tell '' policy , according to the [E1] Servicemembers Legal Defense Network [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Ahearn [/E1] was born Oct 7 , 1954 , in [E2] Nashville [/E2] , Tenn , and graduated with honors from the University of Alabama .",
+    "gold_relation": "per:city_of_birth"
+}
+{
+    "sen": "`` [E1] He [/E1] was murdered because he was gay , '' [E2] District Attorney [/E2] Charles Hynes said five days after he died .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Le Point [/E1] said Roux , who worked extensively in Asia , is thought to have previously flown to Pyongyang on an earlier occasion in August , at the request of the [E2] North Korean [/E2] authorities .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The country 's ruling Lesotho Congress for Democracy ( LCD ) , which has been in power for a decade , and the four-month-old [E1] ABC [/E1] obviously led the vying for 120 seats of the Assembly , though a total of 15 parties and [E2] 93 [/E2] independent candidates were contesting .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "It is not clear what message the [E1] MNLF [/E1] will convey to the [E2] OIC [/E2] in March , but these tripartite meetings have previously been used by the MNLF to air their complaints over provisions of the peace accord they claim have not been met .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The first was composed of [E1] Paralyzed Veterans of America [/E1] 's [E2] Carl Blake [/E2] , National Veterans Legal Service Program 's Ronald Abrams and Blinded Veterans Association 's Thomas Zampieri .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Among them are [E1] Hector Elizondo [/E1] , as Pancho Duque , the family patriarch ; Rita Moreno as Amalia Duque , his wife ; Nestor Carbonell as Frank Duque , the brother who feels that Alex has stolen his birthright ; and Polly Walker as Ellis Samuels , the daughter of a rival sugar family that has its eyes set on the [E2] Duques [/E2] ' land and other spoils .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In 1937 , [E2] six years [/E2] after [E1] her [/E1] graduation from Yale , she applied for a position in the New York City corporation counsel 's office .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Earlier this month , DirecTV announced plans for HD versions of 100 channels -- MTV , [E1] USA Network [/E1] , the SciFi Channel and others -- by [E2] the end of the year [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In addition to [E1] his [/E1] wife , Meskill is survived by two daughters , Eileen Gallup of New Britain and Maureen Heneghan of Haddon Heights , [E2] N.J. [/E2] ; three sons , John , of Kensington , Conn. ; Peter , of East Hartford , Conn. ; and Thomas , of Branford , Conn. ; two sisters , Ruth Prior of Naples , Fla. , and Sister Laura Marie of Portland , Conn. ; five grandchildren , and two step-grandchildren .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Telecommunications Minister [E2] Jesse Chacon [/E2] -- a close Chavez confidant -- defended the legality of the government 's plans while accusing the commission of bias against [E1] Chavez [/E1] 's administration , saying `` everybody knows the prejudice of that commission . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "She heads the [E1] United National Congress [/E1] ( UNC ) , which put together a coalition of opposition parties to oust Prime Minister [E2] Patrick Manning [/E2] 's National People 's Movement ( PNM ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "NARSAD is the research institute used by intelligence services , both [E2] cia [/E2] and [E1] kgb [/E1] cooperate on NARSAD showing that russian-american hostilities are a sham to keep the public under control .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "He is survived by his wife of 63 years , [E1] Josephine Robinson McNair [/E1] , of Columbia ; a son , Robert E. Jr. , of Columbia ; three daughters , Robin Lee Howell and Corinne Godshall , of [E2] Myrtle Beach [/E2] , S.C. , and Claudia Crawford McNair , of Jamestown , S.C. ; six grandchildren ; and one great-grandchild .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Tokyo Stock Exchange [/E1] 's benchmark Nikkei-225 index was down [E2] 618.67 [/E2] points or 5.06 percent by the end of the morning session at 11,596.09 , the lowest intraday level since July 2005 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` What 's interesting here is that ( Parker ) is a member of the generation that really gets it , '' said [E2] Stephen Gutwillig [/E2] , a spokesman for the Drug Policy Alliance , the main beneficiary of [E1] Parker [/E1] 's contribution .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` You do not want to be caught in that air , '' said Dr. Kenneth Rundell , the director of the Human Performance Laboratory at [E1] Marywood University [/E1] in Scranton , [E2] Pa. [/E2] .",
+    "gold_relation": "org:stateorprovince_of_branch"
+}
+{
+    "sen": "The [E2] Kansas City [/E2] , Missouri , based company announced on April 20 that it had brokered a deal to sell [E1] Option One Mortgage [/E1] to Cerberus , which is headed by former US Treasury secretary John Snow , with a likely price tag of over one billion dollars .",
+    "gold_relation": "org:city_of_branch"
+}
+{
+    "sen": "While there are [E2] two [/E2] other Saturn rockets on display -- one at the [E1] Kennedy Space Center [/E1] in Florida and the other at the U.S. Space and Rocket Center in Huntsville , Alabama -- the rocket in Houston is the only one with all stages meant to fly in space .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] National Red Cross [/E1] societies from Australia , Belgium , Britain , [E2] Canada [/E2] , Denmark , France , Poland , Syria and Tanzania have signed another pledge to train journalists in both international humanitarian law and basic first aid .",
+    "gold_relation": "org:members"
+}
+{
+    "sen": "Senate Majority Leader Harry Reid , D-Nev. , has asked [E1] Boxer [/E1] and other committee chairmen to wrap up their work on a bill by [E2] mid-September [/E2] , leaving time for floor action this fall .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Monday , [E2] Saudi [/E2] permanent representative to the Arab League ( AL ) [E1] Ahmad Qattan [/E1] said here that he would head his country 's delegation to the summit , ruling out the presence of Saudi King Abdullah or Foreign Minister Prince Saud al-Faisal .",
+    "gold_relation": "per:origin"
+}
+{
+    "sen": "Nor will Stuart Scott trademark `` Boo-Yeahs '' ring through the pines as ESPN takes over airing the Thursday and [E2] Friday [/E2] broadcast from [E1] USA Network [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Boxer [/E1] noted Iranian [E2] President [/E2] Mahmoud Ahmadinejad was in New York for a UN forum on the nuclear non-proliferation treaty and urged him to seize the opportunity to free the hikers , or at least meet with their families .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Mr. [E1] DeBlanc [/E1] and Mr. [E2] Lodukolo [/E2] posed together for a video camera , and then they exchanged salutes in a final farewell .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Standing [E2] 327 [/E2] feet ( 100 meters ) tall , the Ares I-X is the longest rocket ever built , and when lift-off goes ahead it will be the first spacecraft the [E1] Kennedy Space Center [/E1] has launched other than a shuttle in 30 years .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Epstein , who on [E2] Thursday [/E2] made the trade that ended Ramirez 's seven-and-a-half-year run with the [E1] Red Sox [/E1] , seemed most willing Friday to address the distractions Ramirez had caused the team this season with his behavior .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Bacchus suggested [E1] Royal Caribbean [/E1] pay [E2] Haiti [/E2] its regular port fees , but not actually stop there .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "The [E1] IAPA [/E1] , whose members include more than 1,300 newspapers from Patagonia to Alaska , is holding a four-day semiannual meeting in this [E2] Caribbean [/E2] city that ends Monday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] American Bar Association [/E1] , its members horrified by events in Pakistan , has written to Musharraf and condemned [E2] his [/E2] `` profound breach of the rule of law . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "At a crime meeting in the Executive Yuan , Wu told the [E1] Mainland Affairs Council [/E1] to contact [E2] China [/E2] 's Association for Relations Across the Taiwan Straits through Taiwan 's Straits Exchange Foundation and to ask Chinese authorities to battle drug smuggling on land under China 's jurisdiction .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] She [/E2] came under attack from a fellow panelist , Dan Schueftan , deputy director of the National Security Studies Center at [E1] Haifa University [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "It was n't until [E2] 1979 [/E2] , when a friend from their wine-tasting club complained vociferously about a local restaurant critic , that the [E1] Zagats [/E1] suggested that the group tap its hive mind and make its own assessment .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Samer Abdalla , described in [E1] FEC [/E1] documents as the owner of VIP West Insurance Services in Anaheim , Calif. , declined to discuss his $ 500 contribution to Crist 's [E2] 2006 [/E2] campaign and $ 2,300 to New York Sen. Hillary Rodham Clinton last year .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Rev. [E1] George Young [/E1] , [E2] pastor [/E2] of Holy Temple Baptist Church in Oklahoma City , has taught dozens of secular marriage skills courses to low-income men and women and was an adviser to the governor 's office .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "`` In light of the risks to exports , domestic demand must be underpinned , '' union [E2] president [E1] [/E2] Berthold Huber [/E1] argued .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "In 1974 , Roraback represented Peter Reilly , 18 , of Canaan , Conn. , in [E1] his [/E1] first trial on charges that [E2] he [/E2] murdered his mother .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "One of the bigger catches of the week for the campaign was American Family Association founder [E1] Don Wildmon [/E1] , who said that while he does not agree with the former [E2] Arkansas [/E2] governor on `` 100 percent '' of the issues , Huckabee nevertheless `` shares our values '' and `` has the skills to bring us together . ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "After her retirement , [E1] she [/E1] was a volunteer reading instructor in New York City public schools for two years , and was appointed to the [E2] Regents Review Committee of the New York State Board of Regents [/E2] .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "BANGKOK , [E2] Sept 12 [/E2] ( [E1] Bernama [/E1] ) -- Thai Prime Minister Surayud Chulanont today expressed his optimism that the space for extremism would be reduced in the restive southern Thailand over the next few months .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Addressing advertisers last month , ABC Primetime President [E1] Steve McPherson [/E1] promised `` all dramas will be funny '' at his network , but he might as well have been speaking for [E2] his [/E2] competitors , too .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E1] He [/E1] was [E2] 79 [/E2] and also had a home in East Berlin , Conn .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "In January 1979 , when [E1] Bolin [/E1] had reluctantly retired after 40 years as a judge , Constance Baker Motley , a black woman and a federal judge , called [E2] her [/E2] a role model .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The new technology is being developed by major lighting companies like GE , [E1] Konica Minolta [/E1] , Osram Sylvania , [E2] Philips [/E2] and Universal Display .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Summit 's `` Red '' starring Bruce Willis and Morgan Freeman had a solid debut [E2] last weekend [/E2] , despite being overshadowed by the antics of [E1] Johnny Knoxville [/E1] , and should hold up well this weekend with a gross of just over $ 10 million .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] International Monetary Fund [/E1] 's Europe official , [E2] Albert Jaeger [/E2] , who has just completed a trip to Ukraine , said it was too early to judge the possible economic consequences of the crisis .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "After completing a master 's in sociology in 1952 , [E1] he [/E1] taught sociology at Morgan State , worked for the [E2] Baltimore [/E2] probation department and was director , successively , of two state human relations committees .",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Ekmeleddin Ihsanoglu , secretary general of the [E1] OIC [/E1] , says the group has already targeted the [E2] United States [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The next day , Rep. [E1] Andre Carson [/E1] , [E2] D-Ind. [/E2] , called the industry 's practices `` reckless '' during a House Financial Services Committee hearing on compensation .",
+    "gold_relation": "per:stateorprovinces_of_residence"
+}
+{
+    "sen": "mo for [E1] DirecTV [/E1] ( HD service with [E2] 3 [/E2] DVRs ) and $ 70/mo for internet service .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` As long as the price of crude oil stays above $ 100 a barrel , drivers will be forced to pay more and more at the gas pump , '' a [E1] AAA [/E1] spokesman , [E2] Troy Green [/E2] , said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The American 's ninth career gold medal tied him with [E2] Mark Spitz [/E2] , Carl Lewis , [E1] Paavo Nurmi [/E1] and Larysa Latynina for the most in Olympic history .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Bond [/E1] also has acknowledged that , with [E2] 64 [/E2] members , the NAACP 's board of directors is large and sometimes unwieldy .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Growers have been debating the most aesthetically pleasing tree for many years , and it comes down to personal preference , said [E2] Rick Dungey [/E2] , spokesman for the [E1] National Christmas Tree Association [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "( Indeed , mad props for ad buyers are breaking out everywhere : [E2] Last week [/E2] on `` American Idol , '' [E1] Simon Cowell [/E1] not only took a long swig from his big red cup with the Coca-Cola logo , he also remarked , in a seemingly facetious aside , how much he enjoys the soft drink . )",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In 2007 , Laidlaw , your parent company , was acquired by [E1] FirstGroup [/E1] of [E2] Scotland [/E2] , the largest bus operator in Britain .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "Some relatives of the captives pleaded with Uribe to allow [E2] Chavez [/E2] to resume [E1] his [/E1] mediation , a move that Colombian officials ruled out after a bitter feud between the two leaders in recent days .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "At a press briefing today in which dozens of less dramatic staff changes were discussed , the [E2] president [/E2] 's Chief of Staff Leon Panetta said both he and President Clinton want Ms. [E1] Myers [/E1] in the job .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Committees in the House and Senate are exploring whether [E2] Iglesias [/E2] and other federal prosecutors were ousted for strictly partisan reasons and whether Attorney General [E1] Alberto R. Gonzales [/E1] and senior Justice Department officials initially misled Congress in explaining the personnel moves .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "When asked by The [E2] Associated Press [/E2] at that event how she was dealing with the loss of [E1] her [/E1] mother , she responded : `` I connected with her spirit so strongly .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "President Jalal Talabani , a Kurd , said former Defense Minister Sultan [E1] Hashim Ahmad al-Tai [/E1] deserved to be spared because [E2] he [/E2] had been carrying out orders under threat of death by Saddam and because he had engaged in official contact with the Kurdish community under the ousted regime .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "`` There are some who would not permit the payment of a single cent for [E1] Aerolineas Argentinas [/E1] , '' senator [E2] Ernesto Ricardo Sanz [/E2] told opposition radio Union Civic Radial .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Vienna [/E2] 's Sustainable Urban Renewal Program was conferred the 2010 UN-Habitat Scroll of Honor Award on Monday , Austrian Press Agency ( [E1] APA [/E1] ) reported .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Then in April , Citigroup bought [E2] Pandit [/E2] 's firm , [E1] Old Lane Partners [/E1] , for an estimated $ 800 million , and put him in charge of its alternative investments unit .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` The administration plans to follow the requirements of the legislation , '' [E1] National Security Council [/E1] spokesman [E2] Gordon Johndroe [/E2] said in response to questions Wednesday .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Aug. 12 , Judge Arthur A. Grim , appointed by the [E1] Pennsylvania Supreme Court [/E1] to determine how to handle the juveniles who were convicted by [E2] Ciavarella [/E2] and Conahan , recommended that virtually all the cases should be thrown out .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Citizens Project in Colorado Springs told the IRS that a [E1] Focus on the Family [/E1] magazine article clearly implied the organization 's support for President Bush , said director [E2] Barb Van Hoy [/E2] .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "Rundell , though , who directs respiratory research and the human physiology laboratory at [E1] Marywood University [/E1] in Scranton , Pa. , did manage to study the effects of [E2] one [/E2] type of pollutant -- fine particles .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Having this Democratic legislature and [E2] Democratic [/E2] governor for the first time really does change the playing field , '' said Dean Spiliotes , director of research at the New Hampshire Institute of Politics at [E1] St. Anselm College [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Thanks to [E2] Benny Peiser [/E2] for distributing this - a tale from [E1] Richard Lindzen [/E1] ...",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] He [/E1] moved to [E2] Denver [/E2] and sold real estate .",
+    "gold_relation": "per:cities_of_residence"
+}
+{
+    "sen": "Approximately 38 million Americans , 1.7 percent more than last year , are expected to travel 50 miles or more [E2] this Memorial Day weekend [/E2] , according to the [E1] AAA [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Julian Bond , chairman of the board of the Baltimore-based National Association for the Advancement of Colored People , said Gordon tried to quit just [E2] six weeks [/E2] after taking the job in August 2005 , but Bond persuaded [E1] him [/E1] to stay .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In February , key [E2] Darfur [/E2] rebel group the [E1] Justice and Equality Movement [/E1] ( JEM ) signed an agreement with the government in Khartoum on confidence-building measures aimed at clinching a formal peace deal .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "County coroner G. Gary Kirchner said [E1] he [/E1] had been contacted by a doctor at [E2] Penn State Children 's Hospital [/E2] in Hershey who said doctors expected to take one girl off life support so she could be brought home .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Manning [/E2] 's PNP consists mostly of black Trinidadians while the [E1] UNC [/E1] 's members are mostly of Indian heritage .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The Director-General of [E1] National Sports Commission [/E1] ( NSC ) [E2] Amos Adamu [/E2] Wednesday rated the performance of the Team Nigeria Paralympics athletes to the just concluded Beijing 2008 Games above average .",
+    "gold_relation": "org:top_members/employees"
+}
+{
+    "sen": "Mr [E1] Watson [/E1] played down an incident earlier this month where he said [E2] he [/E2] was shot at by Japanese whalers .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E1] Chris Simcox [/E1] President [E2] Minuteman Civil Defense Corps",
+    "gold_relation": "per:employee_of"
+}
+{
+    "sen": "Washington and India view Jamaat-ud-Dawa as the successor to [E1] Lashkar-e-Taiba [/E1] , the militant organization that India says trained the 10 gunmen who killed 171 people in [E2] India [/E2] 's commercial capital .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Home loan provider [E2] HDFC [/E2] , aluminum maker [E1] Hindalco [/E1] , property developer DLF and HDFC Bank lost 1.83 percent , 1.33 percent , 1.03 percent and 0.87 percent .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "That movie , also tipped to do well at the Oscars , also features pop star Justin Timberlake as Napster founder [E1] Sean Parker [/E1] , [E2] Zuckerberg [/E2] 's mentor .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Fifty-year-old aerial photographs taken by Museum [E2] founder [E1] [/E2] Brad Washburn [/E1] are paired with more recent images taken by environmental photojournalist David Arnold to show evidence of icecap and glacial recession in some of the world 's most remote landscapes .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Alongside Fiszman , the [E1] club [/E1] 's other major shareholders are non executive director Lady Nina Bracewell-Smith ( 1590 percent ) , vice-president David Dein ( 146 percent ) and non-executive director [E2] Richard Carr [/E2] ( 438 percent ) .",
+    "gold_relation": "org:shareholders"
+}
+{
+    "sen": "Back to the opera thing , it sounds like [E2] Charles Wuorinen [/E2] is more a fan of the book than the film and maybe that 's why he does n't seem fully aware of how much it means to some people and why [E1] he [/E1] does n't seem to think it 's a problem to have anyone other than Jake and Heath as Jack and Ennis .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "[E1] She [/E1] handled it with considerable aplomb for [E2] five [/E2] or six weeks but in the last week it started to get to her .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Life of the Land [/E2] supports 35 percent tax credit for new and existing residential units and rebates from the Energy Efficiency Utility which will take over energy efficiency programs from HECO , [E1] MECO [/E1] and HELCO in 2009 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] She [/E2] better be hot or else [E1] Frankie [/E1] is walking home ! ''",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In light of the weak survey and figures showing a 26 percent drop in new [E2] European [/E2] car sales in November , he slashed [E1] his [/E1] 2009 economic forecast for the eurozone to a contraction of 2.2 percent from 1.8 percent previously .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "On Oct. 27 three years ago at old Busch Stadium , the [E1] Red Sox [/E1] completed a sweep of [E2] St. Louis [/E2] for their World Series title in 86 years .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` There 's moments when she 's really motherly , '' Whitney said of [E2] Cutrone [/E2] , though there are also moments when Whitney admitted [E1] she [/E1] 's `` harsh '' and just wants to `` criticize . ''",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "Najib Razik said mainly-Muslim [E2] Malaysia [/E2] has never been a secular nation as the government has always been driven by the fundamentals of Islam , according to state [E1] Bernama [/E1] news agency .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "A total of over 1000 people gathered at two locations on Friday and Saturday in Oxnard , California to honor the memory of Lawrence King , 15 , an openly gay middle-school student who was shot in the head last Tuesday by [E1] Brandon McInerney [/E1] , a [E2] 14 [/E2] year-old fellow 8th grader .",
+    "gold_relation": "per:age"
+}
+{
+    "sen": "And fellow Austrian Arnold Schwarzenegger invited [E1] Waldheim [/E1] to his 1986 wedding to [E2] Maria Shriver [/E2] , a month after the disclosures about Waldheim 's Nazi past .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Yolanda King [/E1] died last May of an apparent [E2] heart attack [/E2] .",
+    "gold_relation": "per:cause_of_death"
+}
+{
+    "sen": "* Verizon 's [E1] Samsung [/E1] SCH-i760 includes a touch screen with unique keypad design * I had a chance to hold the [E2] Samsung [/E2] SCH-i760 at CES 2007 in January , but there was no battery in the device to try it out .",
+    "gold_relation": "org:alternate_names"
+}
+{
+    "sen": "Ltd. , [E1] CNR [/E1] 's foreign trade arm , and New Zealand 's [E2] KiwiRail [/E2] , a state-operated railway company .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Over the past month I 've been contacted by three different individuals ( two of them members of the Log Cabin Republicans ) claiming that [E2] McCain [/E2] 's Senate chief of state , [E1] Mark Buse [/E1] , is gay .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Increased competition then from the rival [E1] Jackson Hewitt Tax Services Inc. [/E1] and Liberty Tax Service chains , along with some season-opening snags that [E2] Block [/E2] calculates cost it 250,000 customers , produced an unusual loss of market share for the company .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` Obviously the important witnesses included [E1] Zubaydah [/E1] , [E2] Binalshibh [/E2] and KSM ( Khalid Sheikh Mohammed ) .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Rev. [/E2] DeBlanc recalled accompanying [E1] his [/E1] father to the Solomon Islands in 2002 for the Battle of Guadalcanal 's 60th anniversary , which both American and Japanese veterans attended .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "I had the opportunity of seeing [E1] her [/E1] perform those skits on the first observance of the Martin Luther King Jr. federal holiday since [E2] her [/E2] mother 's death in January 2006 .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "In a letter to Gail Seal , Gordon Brown said that he was `` delighted to accept your offer to become a patron of [E1] JNF [/E1] [E2] UK [/E2] '' .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "`` What I think many of us are concerned about is that we stumble into active hostilities with Iran without having aggressively pursued diplomatic approaches , without the American people understanding exactly what 's taking place , '' Sen. [E2] Barack Obama [/E2] , a Democrat told [E1] John Negroponte [/E1] , who is in line to become the No. 2 U.S. diplomat as Secretary of State Condoleezza Rice 's deputy .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Zagat [/E1] planned to join restaurant , hospitality and tourism officials at Commander 's Palace on [E2] Wednesday [/E2] to formally announce the 2007 Best of New Orleans survey results .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "In response to [E1] EnergySolutions [/E1] ' application , Reps. Bart Gordon , a Democrat from Tennessee , and [E2] Jim Matheson [/E2] , a Democrat from Utah , previously introduced legislation that calls for banning the importation of nuclear waste unless it originated in the U.S. or is important for the country 's national defense .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "`` The National Election Commission ( [E1] NEC [/E1] ) told us there were 16 million Sudanese who registered and [E2] Beshir [/E2] got six million and this six million ( figure ) is contested ... that means 10 million Sudanese do not want Beshir , '' he said .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E2] Mitsui & Co. [/E2] fell 5.0 percent to 1,423 yen and [E1] Itochu [/E1] shed 3.8 percent to 680 .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Washburn climbed some of the world 's most challenging mountains and is particularly known for [E1] his [/E1] photography of Alaska 's Mount McKinley and his exploration of the mountain with [E2] his [/E2] wife .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "VIENNA -- [E1] The Nuclear Supplier Group [/E1] ( NSG ) failed on early Saturday morning to agree on a [E2] U.S. [/E2] draft for a waiver breaking a nuclear trade embargo imposed on India .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Mahdi Abdul-Hadi , a [E2] Palestinian [/E2] intellectual and longtime Jerusalem resident , said [E1] Kollek [/E1] 's relations with Jerusalem 's Palestinians were complex , but he earned their grudging respect for rising to the challenge of his office .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The ground has [E2] now [/E2] been created for holding free and fair elections , '' [E1] Awami League [/E1] general secretary Syed Ashraful Islam told AFP .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "[E1] Carnival [/E1] spokeswoman Jennifer De La Cruz told us that `` there was no damage to the pier , and the cruise center sustained minimal damage '' and on Thursday the company announced that the terminal would reopen [E2] Oct. 8 [/E2] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Britain 's Sun and Daily Mirror had reported that the model , [E2] 32 [/E2] , and the [E1] Babyshambles [/E1] frontman , 27 , tied the knot in a candlelit ceremony on New Year 's Day in the Thai resort of Phuket .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Dec. 21 , vs. [E2] New Orleans [/E2] : Same goes for the Saints , who are 4-4 and last in the [E1] NFC South [/E1] .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The [E1] Massachusetts House of Representatives [/E1] voted 124 to 21 Thursday to allow the [E2] nine [/E2] state colleges to rename themselves universities , making it the farthest such a bill has ever advanced in the Legislature , said Representative David M. Torrisi , chairman of the Joint Committee on Higher Education , who voted for the measure .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "The group , composed of doctors of the Chang Gung Memorial Hospital based in southern [E2] Taiwan [/E2] 's Kaohsiung City and Linkou town in the north , and workers of the [E1] Noordhoff Craniofacial Foundation [/E1] ( NCF ) , recently jointly organized a medical mission `` Love makes whole .",
+    "gold_relation": "org:country_of_branch"
+}
+{
+    "sen": "[E1] Ezra [/E1] is providing a huge service here , and please contribute to [E2] his [/E2] website .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "The [E2] New York Times [/E2] February 11 , 2008 [E1] Roy Scheider [/E1] , Actor in ` Jaws , ' Dies at 75 By DAVE KEHR",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Saudi media said that Larijani , who is secretary of the supreme national security council , also delivered a letter from Iran 's supreme [E2] leader [E1] [/E2] Ayatollah Ali Khamenei [/E1] to the Saudi monarch .",
+    "gold_relation": "per:title"
+}
+{
+    "sen": "Survivors include her husband , Keith Thomson , whom she married in 2003 , of Alexandria and Kirkland , Wash. ; two sons from her first marriage , [E2] Bryant Dunn [/E2] of Ketchum , Idaho , and [E1] Reagan Dunn [/E1] of Maple Valley , Wash. ; a stepson , Angus Thomson of San Francisco ; a brother ; and two granddaughters .",
+    "gold_relation": "per:siblings"
+}
+{
+    "sen": "No such quality is displayed in Newell 's movie , unless we count cartoonish performances by Leguizamo and [E1] Hector Elizondo [/E1] as [E2] Florentino [/E2] 's uncle .",
+    "gold_relation": "per:other_family"
+}
+{
+    "sen": "Earlier in the day , [E2] Saudi [/E2] permanent representative to the Arab League [E1] Ahmad Qattan [/E1] announced that he would attend the upcoming Arab summit on behalf of his country , ruling out the presence of Saudi King Abdullah or Foreign Minister Prince Saud al-Faisal .",
+    "gold_relation": "per:origin"
+}
+{
+    "sen": "In the latest [E1] Steve McPherson [/E1] is Gone News , his longtime entertainment attorney [E2] Tom Hoberman [/E2] has issued a deliciously vague and intriguing statement :",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "His Atlanta buddies are returning the love , cheering [E1] him [/E1] on every week at Tin Roof Cantina , owned by the same people who ran former Buckhead joint CJ 's Landing , where Johns got [E2] his [/E2] musical break in 1998 .",
+    "gold_relation": "per:identity"
+}
+{
+    "sen": "US actress and [E2] activist [/E2] Mia Farrow touched down Thursday in Hong Kong , promising not to disturb the Olympic torch relay as she campaigns over Darfur and China 's links to the Sudan government.Amid fears here over freedom of speech ahead of Friday 's leg of the relay -- which has been dogged by protests on its worldwide journey -- Farrow said [E1] she [/E1] had been questioned briefly by officials on her arrival .",
+    "gold_relation": "no_relation"
+}
+{
+    "sen": "Democratic presidential hopeful John Edwards added some Hollywood star power to his focus on rural problems , campaigning Wednesday in South Carolina 's small towns with actor and political [E2] activist [E1] [/E2] Danny Glover [/E1] .",
+    "gold_relation": "per:title"
+}
