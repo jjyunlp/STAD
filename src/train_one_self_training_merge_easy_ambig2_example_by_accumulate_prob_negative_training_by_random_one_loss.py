@@ -103,7 +103,7 @@ train_distri_num = None
 data_processor = SelfTrainingREDataProcessor(
     args.dataset_name, args.train_file, args.val_file, args.test_file,
     args.unlabel_file, args.label_file)
-logging.info("Data processor", data_processor)
+# logging.info("Data processor", data_processor)
 
 # for gold data, label_num=1 for partial
 train_inst, train_bert = data_processor.get_train_examples_with_partial()

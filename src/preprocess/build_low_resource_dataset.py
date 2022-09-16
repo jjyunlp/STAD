@@ -8,7 +8,7 @@ import json
 import os
 import sys
 
-sys.path.insert(1, "/home/jjy/work/ST_RE/src/")
+sys.path.insert(1, "/data3/jjyu/work/STAD_copy/STAD/src")
 from data_processor.data_loader_and_dumper import JsonDataDumper, JsonDataLoader
 import random
 import pickle
@@ -155,9 +155,10 @@ class SmallData(object):
 if __name__ == "__main__":
     
     dataset_names = ['semeval']
-    dataset_names = ['re-tacred_exclude_NA']
+    # dataset_names = ['re-tacred_exclude_NA']
     splits = ['train.txt', 'val.txt', 'test.txt']
     base_data_dir = '/home/jjy/work/SelfTrainingRE/data'
+    base_data_dir = '/data3/jjyu/work/STAD_copy/STAD/data'
     N = 10  # num of top relation
 
     exp_id = 5

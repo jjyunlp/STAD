@@ -7,6 +7,7 @@ import os
 import torch
 import logging
 import json
+os.environ['MKL_THREADING_LAYER'] = 'GNU'   # For a mkl-service problem
 
 from torch.utils.data import TensorDataset
 

@@ -9,7 +9,7 @@ import sys
 import json
 import numpy as np
 import matplotlib.pyplot as plt
-sys.path.insert(1, "/home/jjy/work/ST_RE/src/")
+sys.path.insert(1, "/data3/jjyu/work/STAD_copy/STAD/src")
 from data_processor.data_loader_and_dumper import JsonDataLoader, JsonDataDumper
 
 
@@ -139,7 +139,7 @@ def draw_barh(data):
 
     step = 5
     splits = [[2, 2], [3, 3], [4,4], [5,5],[6,10], [11, 15], [16, 20], [21, 25], [26, 30]]
-    splits = [[2, 2], [3, 3], [4,4], [5,5],[6,6], [7,7], [8,8],[9,9], [10,10], [11,11],[12,12],[13,13],[14,14], [15, 15], [16, 16], [17, 17], [18,18], [19,19], [20,20], [21, 30]]
+    splits = [[2, 2], [3, 3], [4,4], [5,5],[6,6], [7,7], [8,8],[9,9], [10,10], [11,11],[12,12],[13,13],[14,14], [15, 15], [16, 16], [17, 17], [18,18], [19,19], [20,20], [21, 28]]
     for split in splits:
         label = f"{split[0]}-{split[1]}"
         label = f"{split[0]}"
@@ -149,6 +149,8 @@ def draw_barh(data):
         number = 0
         for i in range(split[0], split[1]+1):
             print(i-1)
+            print("---")
+            print(data[i-1])
             number += data[i-1][1]
         labels.append(label)
         numbers.append(number)
@@ -172,18 +174,20 @@ def draw_barh(data):
     numbers.reverse()
     plt.barh(labels, numbers)
     plt.title("Distribution of Auto-Annotated Instances")
-    plt.savefig('./sentence_with_answer_size.png')
+    plt.savefig('./sentence_with_answer_size_v2.png')
 
 
 
 if __name__ == "__main__":
-
+    # For draw the ambiguous size -> sentence number
+    prob_threshold = 0.9
     ambiguous_data_file = "/data/jjy/ST_RE_micro_accumulate_prob_20_low_resource/base/re-tacred_exclude_NA/low_resource_exp01/batch32_epoch20_fix_lr5e-05_seed3/pseudo_hard_example_accumulate_prob0.9_top38.txt"
 
+    ambiguous_data_file = f"/data4/jjyunlp/rc_output/STAD_diff_data/base/re-tacred_exclude_NA/low_resource_exp_3/batch32_epoch20_fix_lr5e-05_seed3/pseudo_hard_example_accumulate_prob{prob_threshold}_top38.txt"
 
     analysis = AmbiguousDataAnalysis(ambiguous_data_file)
     ambiguous_data = analysis.load_data()
-    superset_list = analysis.superset_of_accumulate_top_n_prob(ambiguous_data, easy_prob_threshold=0.9, ambiguity_prob_threshold=0.9, topN=38)
+    superset_list = analysis.superset_of_accumulate_top_n_prob(ambiguous_data, easy_prob_threshold=prob_threshold, ambiguity_prob_threshold=prob_threshold, topN=38)
     print(superset_list[:10])
 
     partial_size_2_count = {}
@@ -194,7 +198,7 @@ if __name__ == "__main__":
         else:
             partial_size_2_count[size] += 1
     print(partial_size_2_count)
-    partial_size_2_count[1] = 8428
+    partial_size_2_count[1] = 8416
     info = sorted(partial_size_2_count.items(), key=lambda item: item[0], reverse=False)
     print(info)
     
