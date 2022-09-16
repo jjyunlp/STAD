@@ -266,7 +266,7 @@ class SelfTrainingTrainAndTest(BaseTrainAndTest):
                             continue
                         negative_index = random.randint(0, args.rel_num - 1)    #random:[] semeval is 19 and re-tacred is 40
 
-                        while onehot[negative_index] == 1:
+                        while onehot[negative_index] == 1:  # If the random label is in C+, re-random it
                             negative_index = random.randint(0, args.rel_num - 1)
                         new_onehot = [1] * args.rel_num
 
