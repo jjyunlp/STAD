@@ -21,3 +21,14 @@ Modify the exp_data_dir for output and model_name_or_path for load BERT in `runn
 
 - train_self_training part is for training the SELF-TRAINING model by tagging the unlabeled data with above SUPERVISED model, and then merge confident data with small labeled data.
 - train_self_training_partial_negative_and_ablation part is for training our STAD model and its ablation models. 
+
+## Research Citation
+If the code is useful for your research project, we appreciate if you cite the following [paper](https://arxiv.org/pdf/2209.01431.pdf):
+```
+@article{yu2022stad,
+  title={STAD: Self-Training with Ambiguous Data for Low-Resource Relation Extraction},
+  author={Yu, Junjie and Wang, Xing and Zhao, Jiangjiang and Yang, Chunjie and Chen, Wenliang},
+  journal={arXiv preprint arXiv:2209.01431},
+  year={2022}
+}
+```
