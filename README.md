@@ -2,8 +2,10 @@
 This is the implementation of our submissions for [COLING-2022](https://coling2022.org/).
 
 ## Overview
+Self-training has proven effective for improving NLP tasks. The common practice is to construct confident synthetic data via a probability threshold. In this work, we propose a novel self-training framework on low-resource relation extraction with modeling ambiguous data. In detail, we first propose a method to identify ambiguous but useful instances from the uncertain instances and then divide the relations into candidate-label set and negative-label set for each ambiguous instance. Next, we propose a set-negative training method on the negative-label sets for the ambiguous instances and a positive training method for the confident instances. Finally, a joint-training method is proposed to build the final relation extraction system on all data. Experimental results on SemEval-2010 Task8 and Re-TACRED demonstrate the effectiveness of the proposed method. Extensive anayses on top-N evaluation provide a deeper understanding of how the proposed methods learn from the ambiguous data.
+<p align='center'>
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/29971305/190667801-db7ab5f1-20b8-427d-b47f-1654148045e6.png">
-
+</p>
 
 ## Preparation
 Download SemEval-2010 Task8 dataset and Re-TACRED datasets.
