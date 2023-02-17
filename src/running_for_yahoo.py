@@ -35,20 +35,20 @@ batch_size = 32
 num_train_epoch = 20
 # global setting
 seeds = [1, 2, 3, 4, 5]
-seeds = [1, 2, 3]
+seeds = [1, 2, 3, 4, 5]
 cuda_num = 0
 only_collect_results = False     # Finally collect results from different seeds on different GPUs
 
 prob_thresholds = [0.95, 0.9, 0.85, 0.8]
 # 0.85 is best dev for semeval on self-training baseline
 
-dataset_name = 'yahoo'
+dataset_name = 'trec'
 # the top-k and top-p, the k is set as the maximum number which is the total number of relations minus one
 # This means we can train the instance as long as one relation is not labeled as positive
 max_label_num = 9
 
-part = 1000   # total number of training data
-
+part = 500   # total number of training data
+small_data_name = f"train_{part}"
 
 def build_data_by_seed(seed):
     # A random data split (for training set)
@@ -287,7 +287,7 @@ def collect_base_results(dataset_name, exp_base_dir, method, is_baseline=False, 
     val_list = []
     test_list = []
     for seed in seeds:
-        small_data_name = f"train_{part}"
+        # small_data_name = f"train_{part}"
         result_file = os.path.join(
                                 exp_base_dir,
                                 method,
@@ -354,7 +354,7 @@ def collect_results_among_probs(dataset_name, exp_base_dir, method, is_baseline=
     val_seed_prob = []  # seed: [p1_score, XX]
     test_seed_prob = []  # seed: [p1_score, XX]
     for seed in seeds:
-        small_data_name = f"low_resource_exp_{seed}"
+        # small_data_name = f"low_resource_exp_{seed}"
         val_prob = []
         test_prob = []
         for prob in prob_thresholds:
@@ -383,7 +383,7 @@ def collect_results_among_probs(dataset_name, exp_base_dir, method, is_baseline=
     result_record_file = os.path.join(exp_base_dir, f"{dataset_name}_{part}_results.txt")
     with open(result_record_file, 'a') as writer:
         # 不停的添加新的实验结果
-        writer.write(method + "\n")
+        writer.write("\n" + method + "\n")
         for i, seed in enumerate(seeds):
             writer.write(f"Seed: {seed}\tIteration: {iter}\n")
             writer.write(f"Prob:\t{prob_thresholds}\n")
@@ -404,6 +404,7 @@ def collect_results_among_probs(dataset_name, exp_base_dir, method, is_baseline=
             best_probs.append(best_prob)
             test_among_probs.append(final_test)
         # Write all results for seeds
+        writer.write("\nAveraged " +method + "\n")
         writer.write(f"Seeds: {seeds}\n" )
         writer.write(f"Probs: {best_probs}\n")
         writer.write(f"Micro-F1(val): {best_val_among_probs} Avg={round(sum(best_val_among_probs)/len(best_val_among_probs), 5)}, std={round(np.std(best_val_among_probs)*100, 1)}\n")
@@ -418,7 +419,7 @@ def collect_results_among_probs(dataset_name, exp_base_dir, method, is_baseline=
 def do_self_training(seed, prob_threshold, method, small_data_name):
     # merge single label hard examples
     # 获取一个最高的val对应的prob_threshold
-    python_file = "train_one_self_training_merge_easy_example.py"
+    python_file = "train_text_classification_one_self_training_merge_easy_example.py"
     run_one_self_training_base_merge_pseudo_data(seed, python_file, exp_base_dir, prob_threshold, prob_threshold, method, small_data_name, max_label_num)
     # collect_results(dataset_name, exp_base_dir, method)
 
@@ -444,17 +445,20 @@ def do_merge_easy_and_ambig2_training_negative(seed, method, max_label_num, easy
     one_random_loss = True
     # follow the Kim's negative training for partial label
     if one_random_loss:
-        python_file = "train_one_self_training_merge_easy_ambig2_example_by_accumulate_prob_negative_training_by_random_one_loss.py"
+        python_file = "train_text_classification_one_self_training_merge_easy_ambig2_example_by_accumulate_prob_negative_training_by_random_one_loss.py"
         run_one_self_training_base_merge_pseudo_data(seed, python_file, exp_base_dir, easy_prob_threshold, ambig_prob_threshold, method=method, small_data_name=small_data_name, max_label_num=max_label_num)
         # collect_results(dataset_name, exp_base_dir, method)
 
     one_random_loss_hard_label = False
+    # 这组还有点问题
     # follow the Kim's negative training for hard label
     # - partial label
     if one_random_loss_hard_label:
         method = f"joint_merge_easy_ambig1_prob{ambig_prob_threshold}"
-        python_file = "train_one_self_training_merge_easy_ambig1_example_by_accumulate_prob_negative_training_by_random_one_loss.py"
-        run_one_self_training_base_merge_pseudo_data(python_file, exp_base_dir, easy_prob_threshold, ambig_prob_threshold, method=method, max_label_num=max_label_num)
+        python_file = "train_text_classification_one_self_training_merge_easy_ambig1_example_by_accumulate_prob_negative_training_by_random_one_loss.py"
+        #感觉这边的max_label_num=1，这样才能是ambig1的意思
+        max_label_num = 1
+        run_one_self_training_base_merge_pseudo_data(seed, python_file, exp_base_dir, easy_prob_threshold, ambig_prob_threshold, method=method, small_data_name=small_data_name, max_label_num=max_label_num)
         # collect_results(dataset_name, exp_base_dir, method)
     
     #### POSITIVE random one for partial
@@ -463,21 +467,20 @@ def do_merge_easy_and_ambig2_training_negative(seed, method, max_label_num, easy
     # follow the Kim's negative training for hard label
     if one_random_positive_loss_partial_label:
         method = f"positive_merge_easy_ambig2_prob{ambig_prob_threshold}"
-        python_file = "train_one_self_training_merge_easy_ambig2_example_by_accumulate_prob_positive_training_by_random_one_loss.py"
-        run_one_self_training_base_merge_pseudo_data(python_file, exp_base_dir, easy_prob_threshold, ambig_prob_threshold, method=method, max_label_num=max_label_num)
+        python_file = "train_text_classification_one_self_training_merge_easy_ambig2_example_by_accumulate_prob_positive_training_by_random_one_loss.py"
+        run_one_self_training_base_merge_pseudo_data(seed, python_file, exp_base_dir, easy_prob_threshold, ambig_prob_threshold, method=method, small_data_name=small_data_name, max_label_num=max_label_num)
         #collect_results(dataset_name, exp_base_dir, method)
 
 
 if __name__ == "__main__":
-    server = '139'
-    exp_base_dir = "/data/jjyu/STAD"   # for 139
+    exp_base_dir = "/data/jjyu/STAD"
     # 这个BERT没有修改vocab.txt，但可以用于text classification
     model_name_or_path = "/home/jjyu/OpenNRE/pretrain/bert-base-uncased"
 
     train_file = f"../data/{dataset_name}/train_data_{part}.json"
-    val_file = f"../data/{dataset_name}/dev_data_1000.json"
-    test_file = f"../data/{dataset_name}/test_data_1000.json"
-    unlabel_file = f"../data/{dataset_name}/unlabel_data_5000.json"
+    val_file = f"../data/{dataset_name}/dev_data.json"
+    test_file = f"../data/{dataset_name}/test_data.json"
+    unlabel_file = f"../data/{dataset_name}/unlabeled_data.json"
     label_file = f"../data/{dataset_name}/label2id.json"
     train_small_base = True
     if train_small_base:
@@ -487,14 +490,14 @@ if __name__ == "__main__":
             if only_collect_results:
                 break
             # Train baseline: only use gold data
-            small_data_name = f"train_{part}"       # 本来是区分不同的种子得到的小数据
+            # small_data_name = f"train_{part}"       # 本来是区分不同的种子得到的小数据
             run_teacher(seed, small_data_name, python_file, exp_base_dir, method=method)
         # Results should be
         # Seed      1       2     3   Avg.  std.
         # Micro-F1  XX      XX    XX   YY   ZXZ
         collect_base_results(dataset_name, exp_base_dir, method, is_baseline=True)
 
-    train_self_training = False
+    train_self_training = True
     if train_self_training:
         """
         The baseline for self-training which only merges confident instances.
@@ -503,10 +506,7 @@ if __name__ == "__main__":
         for seed in seeds:
             if only_collect_results:
                 break
-            small_data_name = f"low_resource_exp_{seed}"
-            train_file = f"../data/{dataset_name}/{small_data_name}/train_{part}.txt"
-            val_file = f"../data/{dataset_name}/{small_data_name}/val_10.txt"   # val always 10 for each relation
-            unlabel_file = f"../data/{dataset_name}/{small_data_name}/unlabel_{part}.txt"
+            
             for prob_threshold in prob_thresholds:
                 # to find the best prob for self-training, which is our self-training baseline
                 method_p = f"{method}_{prob_threshold}"
@@ -518,22 +518,20 @@ if __name__ == "__main__":
         # Micro-F1  XX      XX    XX   YY   YXY
         collect_results_among_probs(dataset_name, exp_base_dir, method)
 
-    train_self_training_partial_negative_and_ablation = False
+    train_self_training_partial_negative_and_ablation = True
+    # 先跑STAD，剥离实验等跑完了再补
     if train_self_training_partial_negative_and_ablation:
         method = "joint_easg_partial_ambig"
         for seed in seeds:
             if only_collect_results:
                 break
-            small_data_name = f"low_resource_exp_{seed}"
-            train_file = f"../data/{dataset_name}/{small_data_name}/train_{part}.txt"
-            val_file = f"../data/{dataset_name}/{small_data_name}/val_10.txt"   # val always 10 for each relation
-            unlabel_file = f"../data/{dataset_name}/{small_data_name}/unlabel_{part}.txt"
             for prob_threshold in prob_thresholds:
                 method_p = f"{method}_{prob_threshold}"
                 do_merge_easy_and_ambig2_training_negative(seed, method_p, max_label_num, prob_threshold, prob_threshold)
+        # 剥离实验应该从里面取出来放外面
         collect_results_among_probs(dataset_name, exp_base_dir, method)
 
-
+    # 这个还未修改
     train_self_training_hard_label = False
     # 将confident和non-confident的句子都加上，都以hard label的形式，即top-1的预测作为答案。
     if train_self_training_hard_label:
@@ -542,7 +540,7 @@ if __name__ == "__main__":
             if only_collect_results:
                 break
             # 需要先确认最好的prob，然后进行以下实验
-            small_data_name = f"low_resource_exp_{seed}"
+            # small_data_name = f"low_resource_exp_{seed}"
             train_file = f"../data/{dataset_name}/{small_data_name}/train_{part}.txt"
             val_file = f"../data/{dataset_name}/{small_data_name}/val_10.txt"   # val always 10 for each relation
             unlabel_file = f"../data/{dataset_name}/{small_data_name}/unlabel_{part}.txt"

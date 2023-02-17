@@ -474,8 +474,7 @@ def do_merge_easy_and_ambig2_training_negative(seed, method, max_label_num, easy
 
 
 if __name__ == "__main__":
-    server = '139'
-    exp_base_dir = "/data/jjyu/STAD"   # for 139
+    exp_base_dir = "/data/jjyu/STAD"
     # 这个BERT没有修改vocab.txt，但可以用于text classification
     model_name_or_path = "/home/jjyu/OpenNRE/pretrain/bert-base-uncased"
 
