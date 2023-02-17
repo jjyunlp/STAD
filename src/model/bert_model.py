@@ -264,6 +264,75 @@ class BertModelOutE1E2WithPartial(BertPreTrainedModel):
 
         return outputs  # (loss), logits, (hidden_states), (attentions)
 
+class BertModelOutCLSPositive(BertPreTrainedModel):
+    """
+    A BERT encoder
+    Output hidden states of two entities
+    Positive for clean data and parital labeled data
+    avg 1's loss
+    support one-hot label
+    different from BertModelOutCLS
+    """
+    def __init__(self, config):
+        super().__init__(config)
+        self.num_labels = config.num_labels
+        self.bert = BertModel(config)
+        self.cls_pooler = CLSPooler()   # 源代码中的cls已经被dense + activation了，还是自己写方便处理。
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+        print(self.classifier)
+        self.dense = nn.Linear(config.hidden_size, config.hidden_size)
+        self.activation = nn.Tanh()
+        self.init_weights()
+
+    def forward(
+        self,
+        args=None,
+        input_ids=None,
+        head_start_id=None,
+        tail_start_id=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        labels_onehot=None,
+        flags=None,
+        pseudo_training=False,
+    ):
+        # outputs = sequence_output, pooled_output, (hidden_states), (attentions)
+        # sequence_output means last layer's hidden states for each token
+        # pooled_output means last layer's hidden states for FIRST token
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+        )
+
+        cls_pooled_output = self.cls_pooler(outputs[0]) # outputs[0] 是所有词的输出
+        cls_pooled_output = self.dense(cls_pooled_output)
+        cls_pooled_output = self.activation(cls_pooled_output)        
+        cls_pooled_output = self.dropout(cls_pooled_output)
+        logits = self.classifier(cls_pooled_output)
+        outputs = (logits,)
+
+        # logits = [32, 19]  onehot=[32, 19]
+
+        if labels_onehot is not None:
+            loss_func = MyLossFunction.positive_training
+            loss = loss_func(logits, labels_onehot, flags)
+        else:
+            # for real evaluation            
+            loss = None            
+
+        outputs = (loss,) + outputs
+
+        return outputs  # (loss), logits, (hidden_states), (attentions)
+
 class BertModelOutE1E2Positive(BertPreTrainedModel):
     """
     A BERT encoder for relation extraction with two given entities.
@@ -746,12 +815,80 @@ class BertModelOutE1E2NegativeSupportPartialByRandomOneLoss(BertPreTrainedModel)
         return outputs  # (loss), logits, (hidden_states), (attentions)
 
 
+class BertModelOutCLSPositiveAndNegative(BertPreTrainedModel):
+    """
+    A BERT encoder for relation extraction with two given entities.
+    Output hidden states of two entities
+    Positive for clean data
+    Negative training for parital labeled data (kim's)
+    Our STAD for Sentence Classification (TREC, Yahoo) use this.
+    """
+    def __init__(self, config):
+        super().__init__(config)
+        self.num_labels = config.num_labels
+        self.bert = BertModel(config)
+        self.cls_pooler = CLSPooler()   # 源代码中的cls已经被dense + activation了，还是自己写方便处理。
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(config.hidden_size, self.config.num_labels)
+        print(self.classifier)
+        self.dense = nn.Linear(config.hidden_size, config.hidden_size)
+        self.activation = nn.Tanh()
+        self.init_weights()
+
+    def forward(
+        self,
+        args=None,
+        input_ids=None,
+        head_start_id=None,
+        tail_start_id=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        labels_onehot=None,
+        flags=None,
+        pseudo_training=False,
+    ):
+        # outputs = sequence_output, pooled_output, (hidden_states), (attentions)
+        # sequence_output means last layer's hidden states for each token
+        # pooled_output means last layer's hidden states for FIRST token
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+        )
+        cls_pooled_output = self.cls_pooler(outputs[0]) # outputs[0] 是所有词的输出
+        cls_pooled_output = self.dense(cls_pooled_output)
+        cls_pooled_output = self.activation(cls_pooled_output)        
+        cls_pooled_output = self.dropout(cls_pooled_output)
+        logits = self.classifier(cls_pooled_output)
+        outputs = (logits,)
+        # logits = [32, 19]  onehot=[32, 19]
+
+        if labels_onehot is not None:
+            loss_func = MyLossFunction.positive_and_negative_training
+            loss = loss_func(logits, labels_onehot, flags)
+        else:
+            # for real evaluation            
+            loss = None            
+
+        outputs = (loss,) + outputs
+
+        return outputs  # (loss), logits, (hidden_states), (attentions)
+
+
 class BertModelOutE1E2PositiveAndNegative(BertPreTrainedModel):
     """
     A BERT encoder for relation extraction with two given entities.
     Output hidden states of two entities
     Positive for clean data
     Negative training for parital labeled data (kim's)
+    Our STAD for RE use this.
     """
     def __init__(self, config):
         super().__init__(config)

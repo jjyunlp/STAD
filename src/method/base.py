@@ -220,6 +220,9 @@ class BaseTrainAndTest():
                                                       use_random_subset=use_random_subset)
                         if args.dataset_name == "tacred":
                             current_dev = val_results['micro_f1']
+                        if args.dataset_name == "trec" or args.dataset_name == "yahoo":
+                            # 除了修改这里，还需要修改test的部分。。。
+                            current_dev = val_results['micro_f1']
                         elif args.dataset_name == "re-tacred":
                             current_dev = val_results['micro_f1']
                         elif args.dataset_name == "re-tacred_exclude_NA":
@@ -368,6 +371,10 @@ class BaseTrainAndTest():
                 result = analysis.micro_f1_exclude_NA(out_label_ids, preds)
             if args.macro_f1:
                 result = analysis.macro_f1_for_semeval2010(out_label_ids, preds)
+        elif args.dataset_name == "trec" or args.dataset_name == "yahoo":
+            # 目前只支持micro_f1
+            if args.micro_f1:
+                result = analysis.micro_f1(out_label_ids, preds)    # each relation is calculatedd
         elif args.dataset_name == "SemEval-2018-Task7":
             if args.micro_f1:
                 result = analysis.micro_f1(out_label_ids, preds)

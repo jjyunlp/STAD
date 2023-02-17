@@ -86,7 +86,43 @@ class SelfTrainingTrainAndTest(BaseTrainAndTest):
         # 地址传递的，这个unlabel_inst已经被标注好了
         return unlabel_inst
 
-    def tagging_sampling_dump_or_load(current_data_dir,
+    def tagging_for_trec_yahoo(self, args, model, unlabel_tensor, unlabel_inst, id2rel, using_sharpen=False):
+        """用当前model给unlabel_data进行标注
+
+        Args:
+            model ([type]): [description]
+            unlabel_data ([type]): [description]
+            output_file (str): 输出的pesudo file
+        Return:
+            pesudo_inst
+        """
+        # 用当前模型对这一轮的unlabel data生成伪标签，同时获得一个同人工标注数据大小、分布的数据。
+        logging.info("Start label unlabeled data!")
+        all_label, all_prob, all_distri = self.label(args, model, unlabel_tensor)
+        logging.info("End Labeling.")
+        for label, prob, distri in zip(all_label[:20], all_prob[:20], all_distri[:20]):
+            logging.info(f"label={label} prob={prob}, distri={distri}")
+        # 接着将标注的信息加到句子上(dict形式)，包括预测的类别，预测类别的概率，以及概率分布
+        for label, prob, distri, inst in zip(all_label, all_prob, all_distri, unlabel_inst):
+            # 我猜这个是地址传递的。为了方便验证预测的准确率，我们将人工的标注放在gold_relation中
+            if 'gold_label' not in inst:     # 这个也防止，再次使用unused data时，会把前一轮的预测当作gold
+                # 第一轮的时候，将这个relation变成gold_relation，而relation是一个变动的
+                inst['gold_label'] = inst['label']    # 为了实验分析时，验证方法选择的可靠性
+            inst['label'] = id2rel[int(label)]   # 这么做是为了让pesudo的inst与gold的有一样的格式
+            inst['prob'] = prob.tolist()   # list可以存json，但narray不行
+            # inst['distri'] = str(distri)
+            if using_sharpen:
+                # 将概率分布进行sharpen处理，需要是np array，list不行
+                p = distri
+                pt = p**(1/args.T)  # 0.5前后调整，若T=1，则相当于没有
+                targets = pt / sum(pt)
+                inst['distri'] = targets.tolist()
+            else:
+                inst['distri'] = distri.tolist()
+        # 地址传递的，这个unlabel_inst已经被标注好了
+        return unlabel_inst
+
+    def tagging_sampling_dump_or_load(self, current_data_dir,
                                       model,
                                       data_processor,
                                       sampler,
@@ -276,6 +312,7 @@ class SelfTrainingTrainAndTest(BaseTrainAndTest):
                 if use_random_one_negative_training_for_hard_label:
                     new_onehot_batch = []
                     # 将partial的onehot转换成hard的onehot
+                    # 这边写了什么东西啊。。完全忘了。temp_hard_labels?batch[5]，也许是top1的label
                     hard_label_batch = tensor2onehot(temp_hard_labels, args.rel_num)
                     for (onehot, flag) in zip(hard_label_batch, batch[7]):
                         if flag == 1:
@@ -377,6 +414,8 @@ class SelfTrainingTrainAndTest(BaseTrainAndTest):
                         val_results, _, _ = self.test(args, model, val_dataset,
                                                       use_random_subset=use_random_subset)
                         if args.dataset_name == "tacred":
+                            current_dev = val_results['micro_f1']
+                        elif args.dataset_name == "trec" or args.dataset_name == "yahoo":
                             current_dev = val_results['micro_f1']
                         elif args.dataset_name == "re-tacred":
                             current_dev = val_results['micro_f1']
@@ -1440,3 +1479,229 @@ class GetDistribution():
             distribution_prob[rel] = num/total_size
         return distribution_num, distribution_prob
     
+
+class TextSampling():
+    """Sampling class for text classification, like trec, yahoo.
+    The difference with Sampling class:
+        replace inst['relation'] -> inst['label']
+        gold_relation -> gold_label
+        """
+    def __init__(self, id2rel, clean_data=None, drop_NA=False):
+        """
+        clean_data is all gold training insts, convert it to rel2insts
+        """
+        print("Sampling")
+        self.id2rel = id2rel
+        if clean_data is not None:
+            self.train_rel2inst = self.convert_inst_to_dict(clean_data)
+        self.drop_NA = drop_NA
+
+    def evaluate_pseudo_data(self, pseudo_inst, result_file, label2id):
+        """evaluate the accuracy and f1 for pseudo data(as we have gold label)"""
+        analysis = EvaluationAndAnalysis()
+        gold_all = []   # except the padding inst
+        pred_all = []
+        for inst in pseudo_inst:
+            if 'gold_label' in inst:
+                gold_all.append(label2id[inst['gold_label']])
+                pred_all.append(label2id[inst['label']])     # the pred relation
+        result = analysis.micro_f1_for_tacred(gold_all, pred_all, verbose=True)
+        acc = accuracy_score(gold_all, pred_all)
+        result['acc'] = acc
+        with open(result_file, 'w') as writer:
+            json.dump(result, writer, indent=2)
+    
+    def convert_inst_to_dict(self, insts):
+        rel2inst = {}
+        for inst in insts:
+            rel = str(inst['label'])
+            if rel not in rel2inst:
+                rel2inst[rel] = [inst]
+            else:
+                rel2inst[rel].append(inst)
+        return rel2inst
+    
+    def add_pesudo_label(self, inst_data, all_labels, all_probs, all_distributions):
+        # all_distri: softmax后，但为argmax，即一个概率分布
+        for label, distribution, prob, inst in zip(all_labels, all_distributions, all_probs, inst_data):
+            # 直接替换原来的DSlabel，反正目前用不到，这样就能和原始training set一致了
+            # inst.add_element('gold_relation', inst['relation'])   # 保留原始的label，便于评测
+            # 2021/3/22 需要修改数据结构，使之便于修改和增补
+            inst['label'] = self.id2rel[int(label)]   # 我猜这个是地址传递的`
+            inst['distribution'] = str(distribution)
+            inst['prob'] = str(prob)
+        return inst_data
+
+    def sort_and_return_with_prob_threshold(self, data, prob_threshold):
+        """将输入的inst类型的数据按照预测的概率排序，返回高于某个预测概率阈值的句子
+
+        Returns:
+            high_prob_data and low_prob_data
+        """
+        high_prob_data = []
+        low_prob_data = []
+        for inst in data:
+            if float(inst['prob']) < prob_threshold:
+                low_prob_data.append(inst)
+            else:
+                high_prob_data.append(inst)
+
+        return (high_prob_data, low_prob_data)
+
+    def sample_with_prob_threshold(self, data, prob_threshold):
+        """返回高于某个预测概率阈值的句子，没有排序
+
+        Returns:
+            high_prob_data and low_prob_data
+        """
+        high_prob_data = []
+        low_prob_data = []
+        for inst in data:
+            if float(inst['prob']) < prob_threshold:
+                low_prob_data.append(inst)
+            else:
+                high_prob_data.append(inst)
+
+        return (high_prob_data, low_prob_data)
+
+    def sample_with_prob_threshold_with_accumulate(self, data, easy_prob_threshold, ambig_prob_threshold, topN):
+        """返回高于某个预测概率阈值的句子，没有排序
+        并且返回topN个label的总概率大于等于阈值的
+
+        Returns:
+            easy, hard, noisy examples
+        """
+        easy_examples = []
+        na_easy_examples = []
+        hard_examples = []
+        na_hard_examples = []
+
+        noisy_examples = []
+        for inst in data:
+            if float(inst['prob']) >= easy_prob_threshold:
+                if inst['label'] == 'no_relation' and self.drop_NA:      # NA放1:1
+                    na_easy_examples.append(inst)
+                else:
+                    easy_examples.append(inst)
+            else:
+                index_with_prob = zip(inst['distri'], [x for x in range(len(inst['distri']))])
+                prob_index_tuple = sorted(index_with_prob, reverse=True)
+                # all_prob, all_index = zip(*prob_index_tuple)
+                sum_of_prob = 0.0
+                ambiguity_labels = []
+                for prob, index in prob_index_tuple[:topN]:
+                    sum_of_prob += prob
+                    ambiguity_labels.append(index)
+                    if sum_of_prob >= ambig_prob_threshold:
+                        break
+                
+                if sum_of_prob >= ambig_prob_threshold:
+                    if self.drop_NA and ambiguity_labels[0] == 0:
+                        # 模糊标注中第一个是NA，则加入到na_hard
+                        na_hard_examples.append(inst)
+                    else:
+                        hard_examples.append(inst)
+                else:
+                    noisy_examples.append(inst)
+        
+        # 按照1:1加入NA和非NA，若NA少，则比例会小，但tacred基本不会
+        easy_examples += na_easy_examples[:len(easy_examples)]
+        hard_examples += na_hard_examples[:len(hard_examples)]
+        # 剩余的na easy and hard就直接没了
+        return (easy_examples, hard_examples, noisy_examples)
+
+    def sample_with_prob_threshold_by_accumulate_with_constraint(self, data, prob_threshold, topN, prob_constraint):
+        """返回高于某个预测概率阈值的句子，没有排序
+        并且返回topN个label的总概率大于等于阈值的, 且top1/top2 <= 5 ，即两个概率不能相差太大
+
+        Returns:
+            easy, hard, noisy examples
+        """
+        easy_examples = []
+        na_easy_examples = []
+        hard_examples = []
+        na_hard_examples = []
+
+        noisy_examples = []
+        for inst in data:
+            if float(inst['prob']) >= prob_threshold:
+                if inst['label'] == 'no_relation' and self.drop_NA:      # NA放1:1
+                    na_easy_examples.append(inst)
+                else:
+                    easy_examples.append(inst)
+            else:
+                index_with_prob = zip(inst['distri'], [x for x in range(len(inst['distri']))])
+                prob_index_tuple = sorted(index_with_prob, reverse=True)
+                # all_prob, all_index = zip(*prob_index_tuple)
+                sum_of_prob = 0.0
+                ambiguity_labels = []
+                ambiguity_probs = []
+                for prob, index in prob_index_tuple[:topN]:
+                    sum_of_prob += prob
+                    ambiguity_labels.append(index)
+                    ambiguity_probs.append(prob)
+                    if sum_of_prob >= prob_threshold:
+                        break
+                
+                if sum_of_prob >= prob_threshold and ambiguity_probs[0]/ambiguity_probs[1] <= prob_constraint:
+                    if self.drop_NA and ambiguity_labels[0] == 0:
+                        # 模糊标注中第一个是NA，则加入到na_hard
+                        na_hard_examples.append(inst)
+                    else:
+                        hard_examples.append(inst)
+                else:
+                    noisy_examples.append(inst)
+        
+        # 按照1:1加入NA和非NA，若NA少，则比例会小，但tacred基本不会
+        easy_examples += na_easy_examples[:len(easy_examples)]
+        hard_examples += na_hard_examples[:len(hard_examples)]
+        # 剩余的na easy and hard就直接没了
+        return (easy_examples, hard_examples, noisy_examples)
+
+    def sample_with_n_labels_larger_than_ambig_prob_threshold(self, data, easy_prob, ambig_prob):
+        """
+        返回模糊数据，即那些多个（至少两个）label上的概率大于1/label_num的句子，
+        比如10分类，那easy指的是最高概率大于9/10的句子，ambig指的是有多个label的概率>=1/10。
+        noisy则是剩余的
+
+        Returns:
+            easy, hard, noisy examples
+        """
+        easy_examples = []
+        hard_examples = []  # ambiguous example
+        noisy_examples = []
+
+        for inst in data:
+            if float(inst['prob']) >= easy_prob:
+                easy_examples.append(inst)
+            else:
+                index_with_prob = zip(inst['distri'], [x for x in range(len(inst['distri']))])
+                prob_index_tuple = sorted(index_with_prob, reverse=True)
+                # all_prob, all_index = zip(*prob_index_tuple)
+                sum_of_prob = 0.0
+                ambiguity_labels = []
+                for prob, index in prob_index_tuple:
+                    if prob >= ambig_prob:
+                        sum_of_prob += prob
+                        ambiguity_labels.append(index)
+                if len(ambiguity_labels) >= 2:
+                    # at least 2 labels so it could be a ambiguous example
+                    hard_examples.append(inst)
+                else:
+                    noisy_examples.append(inst)
+        
+        return (easy_examples, hard_examples, noisy_examples)
+    
+    # 以下不知道要不要用
+    def dump_data(self, data, data_file):
+        dumper = JsonDataDumper(data_file, overwrite=True)
+        dumper.dump_all_instance(data)
+        logging.info(f"dump {len(data)} samples to {data_file}")
+
+    def output_data(self, label_data, unlabel_data):
+        # We output the topN as new labeled data and left as unused unlabeled data
+        label_file = os.path.join(self.output_dir, f"epoch_{self.epoch}", f"label_data")
+        unlabel_file = os.path.join(self.output_dir, f"epoch_{self.epoch}", f"unlabel_data")
+        self.dump_data(label_data, label_file)
+        self.dump_data(unlabel_data, unlabel_file)
+
